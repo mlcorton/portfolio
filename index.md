@@ -8,7 +8,7 @@ A core part of my role is working directly with **subject matter experts (SMEs)*
 
 ## My Selected Work Examples
 
-### EPDocs — Empathy Platform Documentation  
+<img src="assets/empathy-logo.svg" width="120"/> ### EPDocs — Empathy Platform Documentation  
 *2020 – Present*
 
 **Context & need**  
