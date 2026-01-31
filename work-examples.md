@@ -1,15 +1,16 @@
 ---
 title: My Selected Work Examples
 ---
+[About](/) · [Selected Work](work-empales.html)
 
-## Empathy Holdings 
+# Empathy Holdings 
 
 - [Empathy Platform Docs](#empathy-platform-documentation)
 - [Motive Docs](#motive-docs)
 - [Apisearch Docs](#apisearch-docs)
 - [Other Docs](#other-docs)
 
-### Empathy Platform Documentation 
+## Empathy Platform Documentation 
 [*2020 – Present*]  
 Empathy.co needed a new, scalable documentation portal to replace a hard-to-maintain CMS with limited and outdated content. [Existing documentation](https://empathy.co/docs/) did not meet customer expectations: it was heavily technical, fragmented, and focused on an earlier version of the product.
 
@@ -29,7 +30,7 @@ Empathy.co needed a new, scalable documentation portal to replace a hard-to-main
 
 The result was a **docs-as-code-based, centralized, scalable [documentation portal](docs.empathy.co)** aligned with the product’s evolution and the needs of different user profiles, from non-technical users to developers, integrators, and partners.
 
-#### Selected Examples
+### Selected Examples
 - [**Related Tags Overview**](https://docs.empathy.co/understand-empathy-platform/search-features/related-tags-overview.html)  
   Functional overview aimed at a general audience, explaining one of the platform’s most advanced search features.  
 
