@@ -1,4 +1,6 @@
-# My Selected Work Examples
+---
+title: My Selected Work Examples
+---
 
 ## Empathy Holdings 
 
