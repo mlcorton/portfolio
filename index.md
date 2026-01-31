@@ -8,13 +8,15 @@ A core part of my role is working directly with **subject matter experts (SMEs)*
 
 ## My Selected Work Examples
 
-### Empathy Holdings - Empathy.co 
-|  |  |
-|---|---|
-| <img src="assets/EPDocs-logo.svg" width="120"/> | **Empathy Platform Documentation**  
-*2020 – Present* |
+### Empathy Holdings 
 
-**Context & need**  
+- [Empathy Platform Docs](#empathy-platform-documentation)
+- [Motive Docs](#motive-docs)
+- [Apisearch Docs](#apisearch-docs)
+- [Other Docs](#other-docs)
+
+#### Empathy Platform Documentation 
+[*2020 – Present*]  
 Empathy.co needed a new, scalable documentation portal to replace a hard-to-maintain CMS with limited and outdated content. [Existing documentation](https://empathy.co/docs/) did not meet customer expectations: it was heavily technical, fragmented, and focused on an earlier version of the product.
 
 **My role & impact**
