@@ -13,24 +13,7 @@ title: My Selected Work Examples
 ## Empathy Platform Documentation 
 *[2020 – Present]*  
 Empathy.co needed a new, scalable documentation portal to replace a hard-to-maintain CMS with outdated, limited content. [Existing documentation](https://empathy.co/docs/) did not meet customer expectations: it was heavily technical, fragmented, and focused on an earlier version of the product.
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="assets/epdocs v1.svg" width="200"/><br/>
-      <sub>Legacy CMS</sub>
-    </td>
-    <td align="center">
-      <img src="assets/epdocs v2.vsg" width="200"/><br/>
-      <sub>Transition phase</sub>
-    </td>
-    <td align="center">
-      <img src="assets/epdocs.vsg" width="200"/><br/>
-      <sub>Current portal</sub>
-    </td>
-  </tr>
-</table>
-
+  
 **My role & impact**
 - Co-defined the documentation portal design and development
 - Led the **information architecture** and content model
@@ -46,6 +29,30 @@ Empathy.co needed a new, scalable documentation portal to replace a hard-to-main
 - Collaborated on documentation for **internal open-source projects**, working closely with engineering teams to ensure clarity, accuracy, and maintainability.
 
 The result was a **docs-as-code-based, centralized, scalable [documentation portal](docs.empathy.co)** aligned with the product’s evolution and the needs of different user profiles, from non-technical users to developers, integrators, and partners.
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/epdocs old.svg" width="200"/><br/>
+      <sub>Legacy CMS</sub>
+    </td>
+    <td align="center">
+      <img src="assets/epdocs v1.svg" width="200"/><br/>
+      <sub>Transition phase v1</sub>
+    </td>
+    <td align="center">
+      <img src="assets/epdocs v2.svg" width="200"/><br/>
+      <sub>Transition phase v2</sub>
+    </td>
+    <td align="center">
+      <img src="assets/epdocs-now.svg" width="200"/><br/>
+      <sub>Current portal</sub>
+    </td>
+  </tr>
+</table>
+</div>
+
 
 ### Selected Examples
 - [**Related Tags Overview**](https://docs.empathy.co/understand-empathy-platform/search-features/related-tags-overview.html)  
