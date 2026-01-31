@@ -12,7 +12,24 @@ title: My Selected Work Examples
 
 ## Empathy Platform Documentation 
 *[2020 – Present]*  
-Empathy.co needed a new, scalable documentation portal to replace a hard-to-maintain CMS with limited and outdated content. [Existing documentation](https://empathy.co/docs/) did not meet customer expectations: it was heavily technical, fragmented, and focused on an earlier version of the product.
+Empathy.co needed a new, scalable documentation portal to replace a hard-to-maintain CMS with outdated, limited content. [Existing documentation](https://empathy.co/docs/) did not meet customer expectations: it was heavily technical, fragmented, and focused on an earlier version of the product.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/epdocs v1.svg" width="200"/><br/>
+      <sub>Legacy CMS</sub>
+    </td>
+    <td align="center">
+      <img src="assets/epdocs v2.vsg" width="200"/><br/>
+      <sub>Transition phase</sub>
+    </td>
+    <td align="center">
+      <img src="assets/epdocs.vsg" width="200"/><br/>
+      <sub>Current portal</sub>
+    </td>
+  </tr>
+</table>
 
 **My role & impact**
 - Co-defined the documentation portal design and development
