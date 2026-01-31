@@ -1,7 +1,7 @@
 ---
 title: My Selected Work Examples
 ---
-[About](/) · [Selected Work](work-empales.html)
+[About](/portfolio/) · [Selected Work](work-examples.html)
 
 # Empathy Holdings 
 
@@ -11,7 +11,7 @@ title: My Selected Work Examples
 - [Other Docs](#other-docs)
 
 ## Empathy Platform Documentation 
-[*2020 – Present*]  
+*[2020 – Present]*  
 Empathy.co needed a new, scalable documentation portal to replace a hard-to-maintain CMS with limited and outdated content. [Existing documentation](https://empathy.co/docs/) did not meet customer expectations: it was heavily technical, fragmented, and focused on an earlier version of the product.
 
 **My role & impact**
