@@ -47,21 +47,21 @@ title: My Selected Work Examples
       <li>Authored and maintained additional <strong>product communication materials</strong>, including: content update timelines, content release notes and product changelogs, product roadmap–related documentation, and blog posts and FAQs.</li>
       <li>Collaborated on documentation for <strong>internal open-source projects</strong>, working closely with engineering teams to ensure clarity, accuracy, and maintainability</li>
     </ul>
-  <p>The result was a <strong>docs-as-code-based, centralized, scalable <a href="docs.empathy.co">documentation portal</a></strong> aligned with the product’s evolution and the needs of different user profiles, from non-technical users to developers, integrators, and partners.</p>
+  <p>The result was a <strong>docs-as-code-based, centralized, scalable <a href="https://docs.empathy.co">documentation portal</a></strong> aligned with the product’s evolution and the needs of different user profiles, from non-technical users to developers, integrators, and partners.</p>
 
 <div align="center">
 <table>
   <tr>
     <td align="center">
-      <img src="assets/epdocs old.svg" width="200"/><br/>
+      <img src="assets/epdocs-old.svg" width="200"/><br/>
       <sub>Legacy CMS</sub>
     </td>
     <td align="center">
-      <img src="assets/epdocs v1.svg" width="200"/><br/>
+      <img src="assets/epdocs-v1.svg" width="200"/><br/>
       <sub>Transition phase v1</sub>
     </td>
     <td align="center">
-      <img src="assets/epdocs v2.svg" width="200"/><br/>
+      <img src="assets/epdocs-v2.svg" width="200"/><br/>
       <sub>Transition phase v2</sub>
     </td>
     <td align="center">
@@ -111,7 +111,7 @@ Due to the internal nature of this documentation, full guides are not publicly a
   <br/>
 <p>After the acquisition of Apisearch, the product had no existing documentation, neither internal nor public. In addition, the configuration dashboard's user experience was not self-explanatory enough to replace written documentation, creating friction for integrators during setup and configuration. There was an immediate need to provide guidance to internal teams while a more comprehensive documentation strategy could be defined.</p>
 
-<p><strong>My Role & Impact</strong>
+<p><strong>My Role & Impact</strong></p>
 <p>As a quick solution, I led the definition and creation of integration and configuration quick guides, focusing on enabling fast product setup:</p>
   <ul>
     <li>Defined the scope and structure of integration and configuration quick guides</li>
@@ -161,7 +161,7 @@ Due to the internal nature of this documentation, full guides are not publicly a
       <sub>Onboarding and Training Guides for Technical Writers</sub>
     </td>
     <td align="center">
-      <img src="assets/trainging-guide.svg" width="200"/><br/>
+      <img src="assets/training-guide.svg" width="200"/><br/>
       <sub>Learning Paths & Certifications</sub>
     </td>
   </tr>
