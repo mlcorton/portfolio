@@ -1,4 +1,4 @@
-# Luisa's Portfolio
+
 I’m a **Senior Technical Writer** focused on product and developer-facing documentation for complex software products since 2009. I've worked across different organizational models—from family-run companies and start-ups to larger consulting firms—combining documentation strategy, information architecture, and hands-on writing, helping teams ship documentation that is clear, scalable, and easy to maintain.
 
 I’m comfortable working in **distributed environments**, and I’m used to collaborating both within **dedicated engineering teams** and **cross-functional product teams**. Throughout my career, I’ve worked closely with designers, developers, product owners, product managers, and support teams to ensure documentation aligns with real product behavior and user needs.
