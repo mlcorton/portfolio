@@ -131,7 +131,7 @@ Due to the internal nature of this documentation, full guides are not publicly a
   </ul>
   <p>This approach provided immediate value to internal teams, reduced setup friction, and established a documentation baseline that could later evolve into a more complete public documentation offering.</p>
 
-</details>
+</details>  
 
 ## Other Docs 
   - **Blog Posts**:
@@ -156,7 +156,7 @@ Due to the internal nature of this documentation, full guides are not publicly a
 <table>
   <tr>
     <td align="center">
-      <img src="assets/dictionary.svg" width="200"/><br/>
+      <img src="assets/glossary.svg" width="200"/><br/>
       <sub>Glossaries & Dictionaries</sub>
     </td>
     <td align="center">
@@ -168,12 +168,16 @@ Due to the internal nature of this documentation, full guides are not publicly a
       <sub>Onboarding and Training Guides for Technical Writers</sub>
     </td>
     <td align="center">
-      <img src="assets/training-guide.svg" width="200"/><br/>
+      <img src="assets/trainging-guide.svg" width="200"/><br/>
       <sub>Learning Paths & Certifications</sub>
     </td>
   </tr>
 </table>
 </div>
+
+
+
+
 
 
 
