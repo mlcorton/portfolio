@@ -1,6 +1,9 @@
 title: Luisa Cortón 
-description: Technical Writing Portfolio
+description: Technical Writing Portfolio.<br/><br/>
+  <a href="https://www.linkedin.com/in/luisa-corton-tw/?locale=en_US" target="_blank" rel="noopener noreferrer">
+    LinkedIn
+  </a>
 theme: jekyll-theme-minimal
-logo: /assets/profile.jpg
+logo: /assets/profile.jpeg
 
-# https://www.linkedin.com/in/luisa-corton-tw/?locale=en_US
+
