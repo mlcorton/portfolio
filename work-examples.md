@@ -130,9 +130,10 @@ Due to the internal nature of this documentation, full guides are not publicly a
     <li>Reworked and adapted selected guides for an external audience</li>
   </ul>
   <p>This approach provided immediate value to internal teams, reduced setup friction, and established a documentation baseline that could later evolve into a more complete public documentation offering.</p>
+
 </details>
 
- ## Other Docs 
+## Other Docs 
   - **Blog Posts**:
       - [Integrating Interface X your way](https://docs.empathy.co/blog/interface-x-integration-paths.html)
       - [Redefining Technical Documentation at Empathy.co: A Three-Year Journey of Disruption](https://medium.com/empathyco/redefining-technical-documentation-at-empathy-co-a-three-year-journey-of-disruption-6457b617c386)
@@ -149,7 +150,7 @@ Due to the internal nature of this documentation, full guides are not publicly a
       - [Self-Managed Components](https://github.com/empathyco/empathy-self-managed-components)
    
   - **Other Materials**: In addition to public-facing documentation, I’ve authored and maintained a range of **internal documentation and enablement materials** designed to support teams, partners, and contributors, including: training materials for partners and internal stakeholders, **product and domain glossaries**, **Documentation style guides and writing standards**, **Technical writer training and onboarding guides**, **Internal documentation processes and workflows**.  
-     Note: These materials were created as **internal, non-public resources** and were distributed in **printed or restricted-access formats**. Only **selected screenshots and censored excerpts** are show here.
+     Note: These materials were created as **internal, non-public resources** and were distributed in **printed or restricted-access formats**. Only **selected screenshots and censored excerpts** are shown here.
 
 <div align="center">
 <table>
