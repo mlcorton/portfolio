@@ -5,23 +5,22 @@ title: My Selected Work Examples
 
 # Empathy Platform Documentation 
 
-- <a href="https://docs.empathy.co/understand-empathy-platform/search-features/related-tags-overview.html">Related Tags Overview</a>
-- [**Related Tags Overview**](https://docs.empathy.co/understand-empathy-platform/search-features/related-tags-overview.html)  
-  Functional overview aimed at a general audience, explaining one of the platform’s most advanced search features.  
+- <a href="https://docs.empathy.co/understand-empathy-platform/search-features/related-tags-overview.html">Related Tags Overview</a>  
+  Functional overview aimed at a general audience, explaining one of the platform’s most advanced search features.    
 
-- [**Boost and Bury Products with Query Ranking**](https://docs.empathy.co/play-with-empathy-platform/fine-tune-search-and-discovery/use-query-ranking/)   
+- <a href="https://docs.empathy.co/understand-empathy-platform/search-features/related-tags-overview.html](https://docs.empathy.co/play-with-empathy-platform/fine-tune-search-and-discovery/use-query-ranking/)">Boost and Bury Products with Query Ranking</a>   
   How-to guide for product search managers and merchants, focused on configuring product ranking based on business and customer needs.  
 
-- [**Integrate Interface X Archetype into an Existing Website**](https://docs.empathy.co/develop-empathy-platform/build-search-ui/web-archetype-integration-guide.html)    
+- <a href="https://docs.empathy.co/develop-empathy-platform/build-search-ui/web-archetype-integration-guide.html">Integrate Interface X Archetype into an Existing Website</a>     
   Step-by-step integration guide for developers and integration engineers, covering installation and configuration of the search UI layer using predefined web components. 
 
-- [**Relevancy Tuning Features**](https://docs.empathy.co/play-with-empathy-platform/configure-empathy-platform/configure-search-service/search-relevancy-tuning.html)  
+- <a href="https://docs.empathy.co/play-with-empathy-platform/configure-empathy-platform/configure-search-service/search-relevancy-tuning.html">Relevancy Tuning Features</a>    
   Configuration reference for integrators and partners, detailing available setup options when integrating the product.
 
- - [**UI Reference**](https://docs.empathy.co/develop-empathy-platform/ui-reference/)      
+- <a href="https://docs.empathy.co/develop-empathy-platform/ui-reference/">UI Reference</a>         
   Comprehensive reference documentation describing the UI components, configuration options, and usage patterns available when building search interfaces using Vue.js.  
   
-- [**API Reference**](https://docs.empathy.co/develop-empathy-platform/api-reference/)   
+- <a href="https://docs.empathy.co/develop-empathy-platform/api-reference/">API Reference</a>  
   Reference documentation covering the platform’s APIs, endpoints, and parameters for developers and integration partners.  
 
 <details>
@@ -79,7 +78,7 @@ title: My Selected Work Examples
 
 # Motive Documentation 
 
-- [**Motive Docs**](https://docs.motive.co/)
+- <a href="https://docs.motive.co/">Motive Docs</a>
 
 <details>
   <summary><strong>Project Background</strong></summary>
