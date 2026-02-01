@@ -5,6 +5,7 @@ title: My Selected Work Examples
 
 # Empathy Platform Documentation 
 
+- <a href="https://docs.empathy.co/understand-empathy-platform/search-features/related-tags-overview.html">Related Tags Overview</a>
 - [**Related Tags Overview**](https://docs.empathy.co/understand-empathy-platform/search-features/related-tags-overview.html)  
   Functional overview aimed at a general audience, explaining one of the platform’s most advanced search features.  
 
