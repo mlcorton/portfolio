@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Style sidebar profile image */
+.sidebar img {
+  width: 120px;        /* controls size */
+  height: 120px;
+  border-radius: 50%;  /* makes it circular */
+  object-fit: cover;   /* prevents distortion */
+  margin-bottom: 1rem;
+  border: 2px solid #eee;
+}
