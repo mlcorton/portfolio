@@ -142,8 +142,14 @@ Due to the internal nature of this documentation, full guides are not publicly a
   - [Interface X Components](https://github.com/empathyco/x)
   - [Self-Managed Components](https://github.com/empathyco/empathy-self-managed-components)
    
-- **Other Materials**: In addition to public-facing documentation, I’ve authored and maintained a range of **internal documentation and enablement materials** designed to support teams, partners, and contributors, including: training materials for partners and internal stakeholders, **product and domain glossaries**, **Documentation style guides and writing standards**, **Technical writer training and onboarding guides**, **Internal documentation processes and workflows**.  
-     Note: These materials were created as **internal, non-public resources** and were distributed in **printed or restricted-access formats**. Only **selected screenshots and censored excerpts** are shown here.
+- **Other Materials**: In addition to public-facing documentation, I’ve authored and maintained a range of **internal documentation and enablement materials** designed to support teams, partners, and contributors, including:
+  - Training materials for partners and internal stakeholders
+  - Product and domain glossaries
+  - Documentation style guides and writing standards
+  - Technical writer training and onboarding guides
+  - Internal documentation processes and workflows  
+
+  These materials were created as internal, non-public resources and were distributed in printed or restricted-access formats. Only selected and censored excerpts could be shown upon request.
 
 <div align="center">
 <table>
