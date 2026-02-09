@@ -138,6 +138,9 @@ Due to the internal nature of this documentation, full guides are not publicly a
   - [Seasonal Release Notes](https://docs.empathy.co/release-notes-2024.html)
   - [Doc Releases](https://docs.empathy.co/doc-updates.html)
    
+- **Web Content**:
+  - Extended and created new web pages and landing pages for [empathy.ai](https://empathy.ai) using AI-assisted tools such as Lovable AI and Cursor.
+ 
 - **Open-source Content Collabs**:
   - [Interface X Components](https://github.com/empathyco/x)
   - [Self-Managed Components](https://github.com/empathyco/empathy-self-managed-components)
