@@ -8,8 +8,8 @@ title: My Selected Work Examples
 - <a href="https://docs.empathy.co/understand-empathy-platform/search-features/related-tags-overview.html">Related Tags Overview</a>  
   Functional overview aimed at a general audience, explaining one of the platform’s most advanced search features.    
 
-- <a href="https://docs.empathy.co/understand-empathy-platform/search-features/related-tags-overview.html](https://docs.empathy.co/play-with-empathy-platform/fine-tune-search-and-discovery/use-query-ranking/)">Boost and Bury Products with Query Ranking</a>   
-  How-to guide for product search managers and merchants, focused on configuring product ranking based on business and customer needs.  
+- <a href="https://docs.empathy.co/play-with-empathy-platform/fine-tune-search-and-discovery/configure-next-queries.html">Configure next queries</a>   
+  How-to guide for product search managers and merchants, focused on configuring next product recommendations based on business and customer needs.  
 
 - <a href="https://docs.empathy.co/develop-empathy-platform/build-search-ui/web-archetype-integration-guide.html">Integrate Interface X Archetype into an Existing Website</a>     
   Step-by-step integration guide for developers and integration engineers, covering installation and configuration of the search UI layer using predefined web components. 
