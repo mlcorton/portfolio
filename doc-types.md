@@ -10,7 +10,7 @@ title: Document Types
 
 - <a href="https://docs.empathy.co/play-with-empathy-platform/fine-tune-search-and-discovery/configure-next-queries.html">Configure Next Queries</a> — Empathy Platform
 - <a href="https://docs.empathy.co/play-with-empathy-platform/configure-empathy-platform/configure-search-service/search-relevancy-tuning.html">Relevancy Tuning Features</a> — Empathy Platform
-- **Apisearch Configuration Guides** — Available upon request
+- Apisearch Configuration Guides — Censored excerpt available upon request
 
 ---
 
@@ -19,15 +19,15 @@ title: Document Types
 - <a href="https://docs.empathy.co/develop-empathy-platform/build-search-ui/web-archetype-integration-guide.html">Integrate Interface X Archetype into an Existing Website</a> — Empathy Platform
 - <a href="https://github.com/empathyco/x">Interface X Components</a> — Open-source collab
 - <a href="https://github.com/empathyco/empathy-self-managed-components">Self-Managed Components</a> — Open-source collab
-- **Apisearch Integration Quick Guides** — Available upon request
+- Apisearch Integration Quick Guides — Censored excerpt available upon request
 
 ---
 
 # Configuration Guides
 
 - <a href="https://docs.empathy.co/play-with-empathy-platform/configure-empathy-platform/configure-search-service/search-relevancy-tuning.html">Relevancy Tuning Features</a> — Empathy Platform
-- **Apisearch Configuration Guides** — Available upon request
-- **DocPath Configuration Guide** — Available upon request. <a href="assets/dp-config-guide-excerpt.pdf" target="_blank">View PDF excerpt</a>
+- Apisearch Configuration Guides — Censored excerpt available upon request
+- DocPath Configuration Guide — Censored excerpt available upon request. <a href="assets/dp-config-guide-excerpt.pdf" target="_blank">View PDF excerpt</a>
 
 ---
 
@@ -40,7 +40,7 @@ title: Document Types
 
 # Programming Guides
 
-- **Publicaciones — Programming Guides** — Available upon request. DITA snippet below.
+- Publicaciones — Programming Guides — Censored code snippets available upon request. DITA snippet below.
 
   *DITA type: `<reference>` — Program reference doc*
 
@@ -153,7 +153,7 @@ title: Document Types
 
 - <a href="https://docs.empathy.co/understand-empathy-platform/search-features/related-tags-overview.html">Related Tags Overview</a> — Empathy Platform
 - <a href="https://docs.empathy.co/understand-empathy-platform/">Understand Empathy Platform</a> — Empathy Platform
-- **Publicaciones — Functional Product Docs** — Available upon request. DITA snippet below.
+- Publicaciones — Functional Product Docs — Censored code snippets available upon request. DITA snippet below.
 
   *DITA type: `<topic>` — Functional overview doc*
 
@@ -210,8 +210,8 @@ title: Document Types
 
 # User & Reference Manuals
 
-- **DocPath User Manual** — Available upon request. <a href="assets/dp-user-manual-excerpt.pdf" target="_blank">View PDF excerpt</a>
-- **Publicaciones — Reference Manuals** — Available upon request
+- DocPath User Manual — Censored excerpt available upon request. <a href="assets/dp-user-manual-excerpt.pdf" target="_blank">View PDF excerpt</a>
+- Publicaciones — Reference Manual — Censored code snippets available upon request
 
 ---
 
@@ -225,8 +225,8 @@ title: Document Types
 
 # Blog Posts
 
-- <a href="https://docs.empathy.co/blog/interface-x-integration-paths.html">Integrating Interface X Your Way</a>
 - <a href="https://medium.com/empathyco/redefining-technical-documentation-at-empathy-co-a-three-year-journey-of-disruption-6457b617c386">Redefining Technical Documentation at Empathy.co: A Three-Year Journey of Disruption</a>
+- <a href="https://docs.empathy.co/blog/interface-x-integration-paths.html">Integrating Interface X Your Way</a>
 - <a href="https://docs.empathy.co/blog/fine-tune-mistral-for-dev-portal-overview.html">Fine-tuning Mistral for an Enhanced Content Search Experience (Parts I–IV)</a>
 - <a href="https://docs.empathy.co/blog/revolutionize-search-analytics-with-backroom.html">Revolutionize Your Commerce Search Analytics with Empathy's Backroom</a>
 
@@ -234,7 +234,7 @@ title: Document Types
 
 # Web Content
 
-- Extended and created new web pages and landing pages for <a href="https://empathy.ai">empathy.ai</a> using AI-assisted tools such as Lovable AI and Cursor.
+- Extended and created new web pages and landing pages for <a href="https://empathy.ai">empathy.ai</a> using AI-assisted tools such as Lovable AI and Cursor. — Code snippets available upon request (version discontinued)
 
 ---
 
@@ -249,11 +249,11 @@ title: Document Types
 
 Non-public materials available as censored excerpts upon request.
 
-- **Style Guides & Writing Standards**
-- **Product & Domain Glossaries**
-- **Technical Writer Onboarding Guides**
-- **Partner & Stakeholder Training Materials**
-- **Documentation Processes & Workflows**
+- Style Guides & Writing Standards
+- Product & Domain Glossaries
+- Technical Writer Onboarding Guides
+- Partner & Stakeholder Training Materials
+- Documentation Processes & Workflows
 
 <div align="center">
 <table>
