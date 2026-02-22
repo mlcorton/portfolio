@@ -10,7 +10,7 @@ title: Document Types
 
 - <a href="https://docs.empathy.co">Empathy Platform Docs</a> — Empathy Platform
 - <a href="https://docs.motive.co/">Motive Docs</a> — Motive
-- **Publicaciones** — Not publicly accessible
+- Publicaciones — Not publicly accessible
 
 For full project background and context, see [Selected Work Examples](work-examples.md).
 
@@ -286,3 +286,6 @@ Non-public materials available as censored excerpts upon request.
   </tr>
 </table>
 </div>
+
+---
+[← Home](index.md) · [Work Examples →](work-examples.md)

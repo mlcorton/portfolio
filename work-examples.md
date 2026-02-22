@@ -139,9 +139,9 @@ Due to the internal nature of this documentation, full guides are not publicly a
 
 # Publicaciones — Isban Documentation
 
-Publicaciones was the internal documentation portal for Isban, the software engineering branch of Banco Santander. The challenge was making developer documentation accessible across the entire group — originally in Spanish and translated into English. I led the project and the team, acting as direct client contact, while staying hands-on with editing and publication.
+Publicaciones was the internal documentation portal for Isban, the software engineering branch of Banco Santander. The challenge was making developer documentation accessible across the entire group, originally in Spanish and translated into English. I led the project and the team, acting as direct client contact, while staying hands-on with editing and publication.
 
-**Highlights:** Led documentation transformation into DITA format · Coordinated Spanish-to-English translation for group-wide accessibility · Managed publication into the Publicaciones portal · Handled multiple document types: functional product and application docs, and configuration and installation guides
+**Highlights:** Led documentation transformation into DITA format · Coordinated Spanish-to-English translation for group-wide accessibility · Managed publication into the Publicaciones portal · Handled multiple document types: functional product and application docs, and configuration and programming guides
 
 Due to the internal nature of this project, documentation is not publicly accessible. Selected screenshots are shown below. Censored excerpts can be shown upon request.
 
@@ -160,4 +160,5 @@ Due to the internal and traditional nature of this project, documentation is not
 <img src="assets/docpath-manual.png" width="100" alt="Publicaciones portal screenshot"/>
 
 
-
+---
+[← Home](index.md) · [Document Types →](doc-types.md)
