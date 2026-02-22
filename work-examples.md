@@ -3,7 +3,7 @@ title: My Selected Work Examples
 ---
 [Empathy Platform Docs](#empathy-platform-documentation) · [Motive Docs](#motive-documentation) · [Apisearch Docs](#apisearch-documentation) · [Publicaciones](#publicaciones--isban-documentation) · [DocPath Docs](#docpath-documentation)
 
-# Empathy Platform Documentation
+## Empathy Platform Documentation
 
 Empathy.co needed a scalable documentation portal to replace a hard-to-maintain CMS with outdated, fragmented content that did not meet customer expectations. I led the project from architecture to execution, building a centralized docs-as-code portal covering multiple content types and audiences — from non-technical users to developers and integration partners.
 
@@ -80,7 +80,7 @@ Empathy.co needed a scalable documentation portal to replace a hard-to-maintain 
 
 ---
 
-# Motive Documentation
+## Motive Documentation
 
 Motive is a plug-and-play search and discovery solution for small and medium e-commerces. When the project was transferred to my team, documentation lived in Confluence — misaligned with how non-technical SME customers look for help. I led the migration to a dedicated web-based portal built around their needs.
 
@@ -110,7 +110,7 @@ Motive is a plug-and-play search and discovery solution for small and medium e-c
 
 ---
 
-# Apisearch Documentation
+## Apisearch Documentation
 
 Apisearch is a search solution sitting between Motive and Empathy Platform in terms of complexity and target audience. The challenge here was starting from zero. No internal or public documentation existed after the product was acquired. I led the creation of quick guides from scratch to unblock internal teams and integrators immediately.
 
@@ -137,7 +137,7 @@ Due to the internal nature of this documentation, full guides are not publicly a
 
 ---
 
-# Publicaciones — Isban Documentation
+## Publicaciones — Isban Documentation
 
 Publicaciones was the internal documentation portal for Isban, the software engineering branch of Banco Santander. The challenge was making developer documentation accessible across the entire group, originally in Spanish and translated into English. I led the project and the team, acting as direct client contact, while staying hands-on with editing and publication.
 
@@ -149,7 +149,7 @@ Due to the internal nature of this project, documentation is not publicly access
 
 ---
 
-# DocPath Documentation
+## DocPath Documentation
 
 DocPath Document Solutions is a software company specialized in Customer Communications Management and Contract Lifecycle Management, serving organizations in banking, insurance, logistics, and the public sector. Documentation here followed a traditional publishing approach, where user manuals, reference manuals, and configuration guides for multiple platforms were developed using desktop publishing tools and delivered in PDF format. I also developed in-app online help.
 

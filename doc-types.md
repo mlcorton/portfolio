@@ -6,7 +6,7 @@ title: Document Types
 
 ---
 
-# Doc Sites & Portals
+## Doc Sites & Portals
 
 - <a href="https://docs.empathy.co">Empathy Platform Docs</a> — Empathy Platform
 - <a href="https://docs.motive.co/">Motive Docs</a> — Motive
@@ -15,7 +15,7 @@ title: Document Types
 For full project background and context, see [Selected Work Examples](work-examples.md).
 
 ---
-# How-to Guides
+## How-to Guides
 
 - <a href="https://docs.empathy.co/play-with-empathy-platform/fine-tune-search-and-discovery/configure-next-queries.html">Configure Next Queries</a> — Empathy Platform
 - <a href="https://docs.empathy.co/play-with-empathy-platform/configure-empathy-platform/configure-search-service/search-relevancy-tuning.html">Relevancy Tuning Features</a> — Empathy Platform
@@ -23,7 +23,7 @@ For full project background and context, see [Selected Work Examples](work-examp
 
 ---
 
-# Integration Guides
+## Integration Guides
 
 - <a href="https://docs.empathy.co/develop-empathy-platform/build-search-ui/web-archetype-integration-guide.html">Integrate Interface X Archetype into an Existing Website</a> — Empathy Platform
 - <a href="https://github.com/empathyco/x">Interface X Components</a> — Open-source collab
@@ -32,7 +32,7 @@ For full project background and context, see [Selected Work Examples](work-examp
 
 ---
 
-# Configuration Guides
+## Configuration Guides
 
 - <a href="https://docs.empathy.co/play-with-empathy-platform/configure-empathy-platform/configure-search-service/search-relevancy-tuning.html">Relevancy Tuning Features</a> — Empathy Platform
 - Apisearch Configuration Guides — Censored excerpt available upon request
@@ -40,14 +40,14 @@ For full project background and context, see [Selected Work Examples](work-examp
 
 ---
 
-# API & UI Reference
+## API & UI Reference
 
 - <a href="https://docs.empathy.co/develop-empathy-platform/api-reference/">API Reference</a> — Empathy Platform
 - <a href="https://docs.empathy.co/develop-empathy-platform/ui-reference/">UI Reference</a> — Empathy Platform (Vue.js components)
 
 ---
 
-# Programming Guides
+## Programming Guides
 
 - Publicaciones — Programming Guides — Censored code snippets available upon request. DITA snippet below.
 
@@ -158,7 +158,7 @@ For full project background and context, see [Selected Work Examples](work-examp
 
 ---
 
-# Functional Overviews
+## Functional Overviews
 
 - <a href="https://docs.empathy.co/understand-empathy-platform/search-features/related-tags-overview.html">Related Tags Overview</a> — Empathy Platform
 - <a href="https://docs.empathy.co/understand-empathy-platform/">Understand Empathy Platform</a> — Empathy Platform
@@ -217,14 +217,14 @@ For full project background and context, see [Selected Work Examples](work-examp
 
 ---
 
-# User & Reference Manuals
+## User & Reference Manuals
 
 - DocPath User Manual — Censored excerpt available upon request. <a href="assets/dp-user-manual-excerpt.pdf" target="_blank">View PDF excerpt</a>
 - Publicaciones — Reference Manual — Censored code snippets available upon request
 
 ---
 
-# Release Notes
+## Release Notes
 
 - <a href="https://docs.empathy.co/whats-new.html#release-notes-2025">Release Notes 2025</a> — Empathy Platform
 - <a href="https://docs.empathy.co/release-notes-2024.html">Seasonal Release Notes</a> — Empathy Platform
@@ -232,7 +232,7 @@ For full project background and context, see [Selected Work Examples](work-examp
 
 ---
 
-# Blog Posts
+## Blog Posts
 
 - <a href="https://medium.com/empathyco/redefining-technical-documentation-at-empathy-co-a-three-year-journey-of-disruption-6457b617c386">Redefining Technical Documentation at Empathy.co: A Three-Year Journey of Disruption</a>
 - <a href="https://docs.empathy.co/blog/interface-x-integration-paths.html">Integrating Interface X Your Way</a>
@@ -241,20 +241,20 @@ For full project background and context, see [Selected Work Examples](work-examp
 
 ---
 
-# Web Content
+## Web Content
 
 - Extended and created new web pages and landing pages for <a href="https://empathy.ai">empathy.ai</a> using AI-assisted tools such as Lovable AI and Cursor. — Code snippets available upon request (version discontinued)
 
 ---
 
-# Open-source Collabs
+## Open-source Collabs
 
 - <a href="https://github.com/empathyco/x">Interface X Components</a>
 - <a href="https://github.com/empathyco/empathy-self-managed-components">Self-Managed Components</a>
 
 ---
 
-# Internal Materials
+## Internal Materials
 
 Non-public materials available as censored excerpts upon request.
 
