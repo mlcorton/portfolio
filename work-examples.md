@@ -1,14 +1,18 @@
 ---
 title: My Selected Work Examples
 ---
-[Empathy Platform Docs](#empathy-platform-documentation) · [Motive Docs](#motive-documentation) · [Apisearch Docs](#apisearch-documentation) · [Other Docs](#other-docs)
+[Empathy Platform Docs](#empathy-platform-documentation) · [Motive Docs](#motive-documentation) · [Apisearch Docs](#apisearch-documentation) · [Publicaciones](#publicaciones--isban-documentation) · [DocPath Docs](#docpath-documentation) · [Other Docs](#other-docs)
 
-# Empathy Platform Documentation 
+# Empathy Platform Documentation
+
+Empathy.co needed a scalable documentation portal to replace a hard-to-maintain CMS with outdated, fragmented content that did not meet customer expectations. I led the project from architecture to execution, building a centralized docs-as-code portal covering multiple content types and audiences — from non-technical users to developers and integration partners.
+
+**Highlights:** Led information architecture and content model · Authored ~75% of the documentation · Defined style guides, content standards, and glossaries · Established a documentation system covering multiple content types and audiences
 
 - <a href="https://docs.empathy.co/understand-empathy-platform/search-features/related-tags-overview.html">Related Tags Overview</a>  
-  Functional overview aimed at a general audience, explaining one of the platform’s most advanced search features.    
+  Functional overview aimed at a general audience, explaining one of the platform's most advanced search features.    
 
-- <a href="https://docs.empathy.co/play-with-empathy-platform/fine-tune-search-and-discovery/configure-next-queries.html">Configure next queries</a>   
+- <a href="https://docs.empathy.co/play-with-empathy-platform/fine-tune-search-and-discovery/configure-next-queries.html">Configure Next Queries</a>   
   How-to guide for product search managers and merchants, focused on configuring next product recommendations based on business and customer needs.  
 
 - <a href="https://docs.empathy.co/develop-empathy-platform/build-search-ui/web-archetype-integration-guide.html">Integrate Interface X Archetype into an Existing Website</a>     
@@ -21,10 +25,10 @@ title: My Selected Work Examples
   Comprehensive reference documentation describing the UI components, configuration options, and usage patterns available when building search interfaces using Vue.js.  
   
 - <a href="https://docs.empathy.co/develop-empathy-platform/api-reference/">API Reference</a>  
-  Reference documentation covering the platform’s APIs, endpoints, and parameters for developers and integration partners.  
+  Reference documentation covering the platform's APIs, endpoints, and parameters for developers and integration partners.  
 
 <details>
-  <summary><strong>Project Background</strong></summary>
+  <summary><strong>Full Project Background</strong></summary>
   <br/>
 
   <p>Empathy.co needed a new, scalable documentation portal to replace a hard-to-maintain CMS with outdated, limited content. <a href="https://empathy.co/docs/">Existing documentation</a> did not meet customer expectations: it was heavily technical, fragmented, and focused on an earlier version of the product.</p>
@@ -47,7 +51,7 @@ title: My Selected Work Examples
       <li>Authored and maintained additional <strong>product communication materials</strong>, including: content update timelines, content release notes and product changelogs, product roadmap–related documentation, and blog posts and FAQs.</li>
       <li>Collaborated on documentation for <strong>internal open-source projects</strong>, working closely with engineering teams to ensure clarity, accuracy, and maintainability</li>
     </ul>
-  <p>The result was a <strong>docs-as-code-based, centralized, scalable <a href="https://docs.empathy.co">documentation portal</a></strong> aligned with the product’s evolution and the needs of different user profiles, from non-technical users to developers, integrators, and partners.</p>
+  <p>The result was a <strong>docs-as-code-based, centralized, scalable <a href="https://docs.empathy.co">documentation portal</a></strong> aligned with the product's evolution and the needs of different user profiles, from non-technical users to developers, integrators, and partners.</p>
 
 <div align="center">
 <table>
@@ -76,14 +80,18 @@ title: My Selected Work Examples
 
 ---
 
-# Motive Documentation 
+# Motive Documentation
+
+Motive is a plug-and-play search and discovery solution for small and medium e-commerces. When the project was transferred to my team, documentation lived in Confluence — misaligned with how non-technical SME customers look for help. I led the migration to a dedicated web-based portal built around their needs.
+
+**Highlights:** Led migration from Confluence to a web-based documentation portal · Defined information architecture based on user needs and profiles · Oversaw content conversion to Markdown, enabling a docs-as-code approach
 
 - <a href="https://docs.motive.co/">Motive Docs</a>
 
 <details>
-  <summary><strong>Project Background</strong></summary>
+  <summary><strong>Full Project Background</strong></summary>
   <br/>
-<p>Motive’s documentation was initially owned by a different team and published in <strong>Confluence</strong>, making it significantly hard for customers to discover and access documentation. The structure and tooling were not aligned with how users searched for help or learned about the product.</p>
+<p>Motive's documentation was initially owned by a different team and published in <strong>Confluence</strong>, making it significantly hard for customers to discover and access documentation. The structure and tooling were not aligned with how users searched for help or learned about the product.</p>
 
 <p><strong>My Role & Impact</strong></p>
 <p>When the project was transferred to my team, I led the migration of the documentation to our dedicated web-based documentation project, rethinking both structure and delivery:</p>
@@ -102,12 +110,16 @@ title: My Selected Work Examples
 
 ---
 
-# Apisearch Documentation 
+# Apisearch Documentation
+
+Apisearch is a search solution sitting between Motive and Empathy Platform in terms of complexity and target audience. The challenge here was starting from zero. No internal or public documentation existed after the product was acquired. I led the creation of quick guides from scratch to unblock internal teams and integrators immediately.
+
+**Highlights:** Defined the scope and structure of integration and configuration quick guides · Oversaw and contributed to authoring documentation from scratch · Reworked and adapted selected guides for an external audience
 
 Due to the internal nature of this documentation, full guides are not publicly available. However, **censored excerpts and selected snippets** can be **shown upon request**, focusing on structure, clarity, and instructional approach rather than proprietary details.
 
 <details>
-  <summary><strong>Project Background</strong></summary>
+  <summary><strong>Full Project Background</strong></summary>
   <br/>
 <p>After the acquisition of Apisearch, the product had no existing documentation, neither internal nor public. In addition, the configuration dashboard's user experience was not self-explanatory enough to replace written documentation, creating friction for integrators during setup and configuration. There was an immediate need to provide guidance to internal teams while a more comprehensive documentation strategy could be defined.</p>
 
@@ -125,61 +137,27 @@ Due to the internal nature of this documentation, full guides are not publicly a
 
 ---
 
-# Other Docs  
+# Publicaciones — Isban Documentation
 
-- **Blog Posts**:
-  - [Integrating Interface X your way](https://docs.empathy.co/blog/interface-x-integration-paths.html)
-  - [Redefining Technical Documentation at Empathy.co: A Three-Year Journey of Disruption](https://medium.com/empathyco/redefining-technical-documentation-at-empathy-co-a-three-year-journey-of-disruption-6457b617c386)
-  - [Fine-tuning Mistral for an enhanced content search experience (parts I - IV)](https://docs.empathy.co/blog/fine-tune-mistral-for-dev-portal-overview.html)
-  - [Revolutionize your commerce search analytics with Empathy’s Backroom](https://docs.empathy.co/blog/revolutionize-search-analytics-with-backroom.html)
+Publicaciones was the internal documentation portal for Isban, the software engineering branch of Banco Santander. The challenge was making developer documentation accessible across the entire group — originally in Spanish and translated into English. I led the project and the team, acting as direct client contact, while staying hands-on with editing and publication.
 
-- **Release Notes**:
-  - [Release Notes 2025](https://docs.empathy.co/whats-new.html#release-notes-2025)
-  - [Seasonal Release Notes](https://docs.empathy.co/release-notes-2024.html)
-  - [Doc Releases](https://docs.empathy.co/doc-updates.html)
-   
-- **Web Content**:
-  - Extended and created new web pages and landing pages for [empathy.ai](https://empathy.ai) using AI-assisted tools such as Lovable AI and Cursor.
- 
-- **Open-source Content Collabs**:
-  - [Interface X Components](https://github.com/empathyco/x)
-  - [Self-Managed Components](https://github.com/empathyco/empathy-self-managed-components)
-   
-- **Other Materials**: In addition to public-facing documentation, I’ve authored and maintained a range of **internal documentation and enablement materials** designed to support teams, partners, and contributors, including:
-  - Training materials for partners and internal stakeholders
-  - Product and domain glossaries
-  - Documentation style guides and writing standards
-  - Technical writer training and onboarding guides
-  - Internal documentation processes and workflows  
+**Highlights:** Led documentation transformation into DITA format · Coordinated Spanish-to-English translation for group-wide accessibility · Managed publication into the Publicaciones portal · Handled multiple document types: functional product and application docs, and configuration and installation guides
 
-  These materials were created as internal, non-public resources and were distributed in printed or restricted-access formats. Only selected and censored excerpts could be shown upon request.
+Due to the internal nature of this project, documentation is not publicly accessible. Selected screenshots are shown below. Censored excerpts can be shown upon request.
 
-<div align="center">
-<table>
-  <tr>
-    <td align="center">
-      <img src="assets/glossary.svg" width="200"/><br/>
-      <sub>Glossaries & Dictionaries</sub>
-    </td>
-    <td align="center">
-      <img src="assets/style-guide.svg" width="200"/><br/>
-      <sub>Style Guides</sub>
-    </td>
-    <td align="center">
-      <img src="assets/tw-onboarding-guide.svg" width="200"/><br/>
-      <sub>Onboarding and Training Guides for Technical Writers</sub>
-    </td>
-    <td align="center">
-      <img src="assets/training-guide.svg" width="200"/><br/>
-      <sub>Learning Paths & Certifications</sub>
-    </td>
-  </tr>
-</table>
-</div>
+<img src="assets/publicaciones-site.png" width="200" alt="Publicaciones portal screenshot"/>
 
+---
 
+# DocPath Documentation
 
+DocPath Document Solutions is a software company specialized in Customer Communications Management and Contract Lifecycle Management, serving organizations in banking, insurance, logistics, and the public sector. Documentation here followed a traditional publishing approach, where user manuals, reference manuals, and configuration guides for multiple platforms were developed using desktop publishing tools and delivered in PDF format. I also developed in-app online help.
 
+**Highlights:** Authored user and reference manuals and configuration guides for Windows, Linux, AIX, and AS400 platforms · Delivered documentation in PDF format using desktop publishing tools · Produced documentation primarily in English, with selected reference manuals in Spanish · Developed in-app online help
+
+Due to the internal and traditional nature of this project, documentation is not available online. Selected screenshots are shown below. Censored excerpts and PDF snippets can be shown upon request.
+
+<img src="assets/docpath-manual.png" width="100" alt="Publicaciones portal screenshot"/>
 
 
 
