@@ -1,7 +1,7 @@
 ---
 title: My Selected Work Examples
 ---
-[Empathy Platform Docs](#empathy-platform-documentation) · [Motive Docs](#motive-documentation) · [Apisearch Docs](#apisearch-documentation) · [Publicaciones](#publicaciones--isban-documentation) · [DocPath Docs](#docpath-documentation) · [Other Docs](#other-docs)
+[Empathy Platform Docs](#empathy-platform-documentation) · [Motive Docs](#motive-documentation) · [Apisearch Docs](#apisearch-documentation) · [Publicaciones](#publicaciones--isban-documentation) · [DocPath Docs](#docpath-documentation)
 
 # Empathy Platform Documentation
 

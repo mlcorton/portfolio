@@ -2,10 +2,19 @@
 title: Document Types
 ---
 
-[How-to Guides](#how-to-guides) · [Integration Guides](#integration-guides) · [Configuration Guides](#configuration-guides) · [API & UI Reference](#api--ui-reference) · [Programming Guides](#programming-guides) · [Functional Overviews](#functional-overviews) · [User & Reference Manuals](#user--reference-manuals) · [Release Notes](#release-notes) · [Blog Posts](#blog-posts) · [Web Content](#web-content) · [Open-source Collabs](#open-source-collabs) · [Internal Materials](#internal-materials)
+[Doc Sites & Portals](#doc-sites--portals) · [How-to Guides](#how-to-guides) · [Integration Guides](#integration-guides) · [Configuration Guides](#configuration-guides) · [API & UI Reference](#api--ui-reference) · [Programming Guides](#programming-guides) · [Functional Overviews](#functional-overviews) · [User & Reference Manuals](#user--reference-manuals) · [Release Notes](#release-notes) · [Blog Posts](#blog-posts) · [Web Content](#web-content) · [Open-source Collabs](#open-source-collabs) · [Internal Materials](#internal-materials)
 
 ---
 
+# Doc Sites & Portals
+
+- <a href="https://docs.empathy.co">Empathy Platform Docs</a> — Empathy Platform
+- <a href="https://docs.motive.co/">Motive Docs</a> — Motive
+- **Publicaciones** — Not publicly accessible
+
+For full project background and context, see [Selected Work Examples](work-examples.md).
+
+---
 # How-to Guides
 
 - <a href="https://docs.empathy.co/play-with-empathy-platform/fine-tune-search-and-discovery/configure-next-queries.html">Configure Next Queries</a> — Empathy Platform
