@@ -1,0 +1,8 @@
+# Portfolio – Luisa Cortón
+
+This repo includes source files for my technical writing portfolio, published via GitHub Pages.
+
+The portfolio showcases [selected work examples](work-examples.md) and [document types](doc-types.md) from projects 
+across search and discovery, banking software, and CCM/CLM domains.
+
+Built with Jekyll and the Minimal theme.
