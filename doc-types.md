@@ -2,7 +2,7 @@
 title: Document Types
 ---
 
-[Doc Sites & Portals](#doc-sites--portals) · [How-to Guides](#how-to-guides) · [Integration Guides](#integration-guides) · [Configuration Guides](#configuration-guides) · [API & UI Reference](#api--ui-reference) · [Programming Guides](#programming-guides) · [Functional Overviews](#functional-overviews) · [User & Reference Manuals](#user--reference-manuals) · [Release Notes](#release-notes) · [Blog Posts](#blog-posts) · [Web Content](#web-content) · [Open-source Collabs](#open-source-collabs) · [Internal Materials](#internal-materials)
+[Doc Sites & Portals](#doc-sites--portals) · [Overviews](#conceptual-docs-functional-overviews--reference-manuals) · [Tutorials](#tutorials--how-to-guides) · [Integration Guides](#integration--developer-guides) · [Configuration Guides](#configuration-guides) · [API & UI Reference](#api--ui-reference) · [Architecture Docs](#architecture-docs) · [Release Notes](#release-notes) · [Blog Posts](#blog-posts) · [Open-source Collabs](#open-source-collabs) · [Web Content](#web-content) · [Internal Materials](#internal-materials)
 
 ---
 
@@ -10,47 +10,95 @@ title: Document Types
 
 - <a href="https://docs.empathy.co">Empathy Platform Docs</a> — Empathy Platform
 - <a href="https://docs.motive.co/">Motive Docs</a> — Motive
-- Publicaciones — Not publicly accessible
+- Publicaciones - Isban (Not publicly accessible) — Vector ITC & Banco Santander
 
 For full project background and context, see [Selected Work Examples](work-examples.md).
 
 ---
-## How-to Guides
 
-- <a href="https://docs.empathy.co/play-with-empathy-platform/fine-tune-search-and-discovery/configure-next-queries.html">Configure Next Queries</a> — Empathy Platform
-- <a href="https://docs.empathy.co/play-with-empathy-platform/configure-empathy-platform/configure-search-service/search-relevancy-tuning.html">Relevancy Tuning Features</a> — Empathy Platform
-- Apisearch Configuration Guides — Censored excerpt available upon request
+## Conceptual Docs, Functional Overviews & Reference Manuals
+
+- <a href="https://docs.empathy.co/understand-empathy-platform/search-features/related-tags-overview.html">Related Tags Overview</a> — Empathy Platform
+- <a href="https://docs.empathy.co/understand-empathy-platform/about-empathy-platform/understand-semantics-in-ai-search/">Understand Semantics and Vectors</a> — Empathy Platform
+- <a href="https://docs.empathy.co/understand-empathy-platform/about-empathy-platform/understand-semantics-in-ai-search/why-semantics-in-ai-search.html">Why Semantic Search</a> — Empathy Platform
+- <a href="https://docs.empathy.co/understand-empathy-platform/about-empathy-platform/approach-search-relevance/">Search Relevance</a> — Empathy Platform
+- <a href="https://docs.empathy.co/play-with-empathy-platform/discover-playboard/">Discover the Playboard</a> — Empathy Platform
+- <a href="assets/dp-user-manual-excerpt.pdf" target="_blank">Working Area - PDF excerpt</a> (censored excerpts available upon request) — DocPath 
+
+- Publicaciones - Isban (Not publicly accessible - DITA snippet below) — Vector ITC & Banco Santander 
+  <details>
+  <summary>Product Functional Guide - DITA snippet</summary>
+
+  *DITA type: `<topic>` — Functional overview doc*
+
+  ```xml
+  <?xml version="1.0" encoding="utf-8"?>
+  <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/technicalContent/dtd/topic.dtd">
+  <topic id="[DOC-ID]" xml:lang="en-gb">
+    <title>Automatic Waiver (Batch Process)</title>
+    <titlealts>
+      <navtitle>BP-Automatic Waiver</navtitle>
+      <searchtitle>Automatic Waiver - [MODULE]</searchtitle>
+    </titlealts>
+    <shortdesc>[MODULE] executes a series of processes before the prenotifications of debits,
+    where the analysis of the debits to be waived is performed based on predefined conditions.</shortdesc>
+    <prolog>
+      <metadata>
+        <keywords>
+          <indexterm>[MODULE]</indexterm>
+          <indexterm>Automatic Waiver</indexterm>
+          <indexterm>Batch Process</indexterm>
+        </keywords>
+      </metadata>
+    </prolog>
+    <body>
+      <p>When [MODULE] decides to reduce an item, it uses the waiver service defined in the
+      Attributes Model of the calling application and reflected in the CATALOGUE,
+      in the corresponding products and services.</p>
+      <p>The banking transaction is defined so that it is reported to [Reporting System].</p>
+      <p>Interest and items sent by SETTLEMENTS may not be waived, given that this is done
+      by the aforementioned application. However, in the special case of overdraft items,
+      [MODULE] verifies in advance whether automatic waiver should proceed.</p>
+      <p>Configuration of the predefined conditions that determine the automatic waiver
+      of items is established in a flat file in the following manner:</p>
+      <ul>
+        <li>Company/Product/Sub-type/Reference standard.</li>
+        <li>Group: annual, performed entries, returned entries, semi-annual.</li>
+        <li>Maximum number of debits to reduce or charge.</li>
+        <li>Fixed amount.</li>
+        <li>Amount (From/To).</li>
+        <li>Items related to the exception.</li>
+      </ul>
+    </body>
+    <related-links>
+      <linklist>
+        <title>Related functionalities:</title>
+        <link format="dita" href="[internal-path]" scope="local" type="topic"/>
+        <link format="dita" href="[internal-path]" scope="local" type="topic"/>
+      </linklist>
+    </related-links>
+  </topic>
+  ```
+</details>
 
 ---
 
-## Integration Guides
+## Tutorials & How-to Guides
 
-- <a href="https://docs.empathy.co/develop-empathy-platform/build-search-ui/web-archetype-integration-guide.html">Integrate Interface X Archetype into an Existing Website</a> — Empathy Platform
-- <a href="https://github.com/empathyco/x">Interface X Components</a> — Open-source collab
-- <a href="https://github.com/empathyco/empathy-self-managed-components">Self-Managed Components</a> — Open-source collab
-- Apisearch Integration Quick Guides — Censored excerpt available upon request
+- <a href="https://docs.empathy.co/play-with-empathy-platform/fine-tune-search-and-discovery/configure-next-queries.html">Configure Next Queries</a> — Empathy Platform (co-authored)
+- <a href="https://docs.empathy.co/play-with-empathy-platform/analyze-search-and-discovery/use-terms.html">Visualize search terms</a> — Empathy Platform (co-authored)
 
 ---
 
-## Configuration Guides
+## Integration & Developer Guides
 
-- <a href="https://docs.empathy.co/play-with-empathy-platform/configure-empathy-platform/configure-search-service/search-relevancy-tuning.html">Relevancy Tuning Features</a> — Empathy Platform
-- Apisearch Configuration Guides — Censored excerpt available upon request
-- DocPath Configuration Guide — Censored excerpt available upon request. <a href="assets/dp-config-guide-excerpt.pdf" target="_blank">View PDF excerpt</a>
-
----
-
-## API & UI Reference
-
-- <a href="https://docs.empathy.co/develop-empathy-platform/api-reference/">API Reference</a> — Empathy Platform
-- <a href="https://docs.empathy.co/develop-empathy-platform/ui-reference/">UI Reference</a> — Empathy Platform (Vue.js components)
-
----
-
-## Programming Guides
-
-- Publicaciones — Programming Guides — Censored code snippets available upon request. DITA snippet below.
-
+- <a href="https://docs.empathy.co/develop-empathy-platform/build-search-ui/web-archetype-integration-guide.html">Integrate Interface X Archetype into an existing website</a> — Empathy Platform
+- <a href="https://docs.empathy.co/develop-empathy-platform/build-search-ui/web-x-components-injection-guide.html">Inject Interface X Components into your website's DOM</a> — Empathy Platform
+- <a href="https://docs.empathy.co/develop-empathy-platform/index-product-feed/index-feed-with-api/">Index a Feed using the Index API</a> — Empathy Platform
+- <a href="https://docs.empathy.co/develop-empathy-platform/capture-interaction-signals/tagging-api-guide.html">Integrate Tagging using the Tagging API</a> — Empathy Platform
+- Publicaciones - Isban (Not publicly accessible - DITA snippet below) — Vector ITC & Banco Santander 
+  <details>
+  <summary>Programming Guide - DITA snippet</summary>
   *DITA type: `<reference>` — Program reference doc*
 
   ```xml
@@ -155,89 +203,65 @@ For full project background and context, see [Selected Work Examples](work-examp
     </related-links>
   </reference>
   ```
+  </details>
+---
+
+## Configuration Guides
+
+- <a href="https://docs.empathy.co/play-with-empathy-platform/configure-empathy-platform/configure-search-service/">Configure the Search Service</a> — Empathy Platform
+- <a href="https://docs.empathy.co/play-with-empathy-platform/configure-empathy-platform/configure-search-service/search-relevancy-tuning.html">Relevancy Tuning Features</a> — Empathy Platform
+- <a href="assets/dp-config-guide-excerpt.pdf" target="_blank">Configure the INI File - PDF excerpt</a> (censored excerpts available upon request) — DocPath 
 
 ---
 
-## Functional Overviews
+## API & UI Reference
 
-- <a href="https://docs.empathy.co/understand-empathy-platform/search-features/related-tags-overview.html">Related Tags Overview</a> — Empathy Platform
-- <a href="https://docs.empathy.co/understand-empathy-platform/">Understand Empathy Platform</a> — Empathy Platform
-- Publicaciones — Functional Product Docs — Censored code snippets available upon request. DITA snippet below.
-
-  *DITA type: `<topic>` — Functional overview doc*
-
-  ```xml
-  <?xml version="1.0" encoding="utf-8"?>
-  <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/technicalContent/dtd/topic.dtd">
-  <topic id="[DOC-ID]" xml:lang="en-gb">
-    <title>Automatic Waiver (Batch Process)</title>
-    <titlealts>
-      <navtitle>BP-Automatic Waiver</navtitle>
-      <searchtitle>Automatic Waiver - [MODULE]</searchtitle>
-    </titlealts>
-    <shortdesc>[MODULE] executes a series of processes before the prenotifications of debits,
-    where the analysis of the debits to be waived is performed based on predefined conditions.</shortdesc>
-    <prolog>
-      <metadata>
-        <keywords>
-          <indexterm>[MODULE]</indexterm>
-          <indexterm>Automatic Waiver</indexterm>
-          <indexterm>Batch Process</indexterm>
-        </keywords>
-      </metadata>
-    </prolog>
-    <body>
-      <p>When [MODULE] decides to reduce an item, it uses the waiver service defined in the
-      Attributes Model of the calling application and reflected in the CATALOGUE,
-      in the corresponding products and services.</p>
-      <p>The banking transaction is defined so that it is reported to [Reporting System].</p>
-      <p>Interest and items sent by SETTLEMENTS may not be waived, given that this is done
-      by the aforementioned application. However, in the special case of overdraft items,
-      [MODULE] verifies in advance whether automatic waiver should proceed.</p>
-      <p>Configuration of the predefined conditions that determine the automatic waiver
-      of items is established in a flat file in the following manner:</p>
-      <ul>
-        <li>Company/Product/Sub-type/Reference standard.</li>
-        <li>Group: annual, performed entries, returned entries, semi-annual.</li>
-        <li>Maximum number of debits to reduce or charge.</li>
-        <li>Fixed amount.</li>
-        <li>Amount (From/To).</li>
-        <li>Items related to the exception.</li>
-      </ul>
-    </body>
-    <related-links>
-      <linklist>
-        <title>Related functionalities:</title>
-        <link format="dita" href="[internal-path]" scope="local" type="topic"/>
-        <link format="dita" href="[internal-path]" scope="local" type="topic"/>
-      </linklist>
-    </related-links>
-  </topic>
-  ```
-
+- <a href="https://docs.empathy.co/develop-empathy-platform/api-reference/">API Reference</a> — Empathy Platform
+- <a href="https://docs.empathy.co/develop-empathy-platform/ui-reference/">UI Reference</a> — Empathy Platform (Vue.js components)
+  - <a href="https://docs.empathy.co/develop-empathy-platform/ui-reference/components/search-box/x-components.search-input.html">Search Input component</a> — Empathy Platform (Vue.js components)
+  - <a href="https://docs.empathy.co/develop-empathy-platform/ui-reference/components/next-queries/x-components.next-queries.html">Next Queries component</a> — Empathy Platform (Vue.js components)
+  
 ---
 
-## User & Reference Manuals
+## Architecture Docs
 
-- DocPath User Manual — Censored excerpt available upon request. <a href="assets/dp-user-manual-excerpt.pdf" target="_blank">View PDF excerpt</a>
-- Publicaciones — Reference Manual — Censored code snippets available upon request
+- <a href="https://docs.empathy.co/develop-empathy-platform/build-search-ui/web-x-architecture.html">How Interface X works</a> — Empathy Platform
+- <a href="https://docs.empathy.co/develop-empathy-platform/index-product-feed/feed-indexing-process.html">Catalog Index Process</a> — Empathy Platform
+- <a href="https://docs.empathy.co/understand-empathy-platform/diagram/microservices/">Microservices Layer</a> — Empathy Platform
 
 ---
 
 ## Release Notes
 
 - <a href="https://docs.empathy.co/whats-new.html#release-notes-2025">Release Notes 2025</a> — Empathy Platform
-- <a href="https://docs.empathy.co/release-notes-2024.html">Seasonal Release Notes</a> — Empathy Platform
+- <a href="https://docs.empathy.co/release-notes-2022.html">Seasonal Release Notes</a> — Empathy Platform
 - <a href="https://docs.empathy.co/doc-updates.html">Doc Releases</a> — Empathy Platform
+- <a href="https://apps.apple.com/us/app/b-fy-app/id1334660999">Doc Releases</a> — Biocryptology App (Discontinued)
+
+<table>
+  <tr>
+    <td><img src="assets/content-updates.png" alt="Content Updates Timeline" width="250"></td>
+    <td><img src="assets/biocryptology-release-notes.png" alt="Biocryptology App - Release Notes" width="175"></td>
+  </tr>
+</table>
+
 
 ---
 
 ## Blog Posts
 
 - <a href="https://medium.com/empathyco/redefining-technical-documentation-at-empathy-co-a-three-year-journey-of-disruption-6457b617c386">Redefining Technical Documentation at Empathy.co: A Three-Year Journey of Disruption</a>
+- <a href="https://docs.empathy.co/blog/welcome-ai-mode.html">Welcome, AI Mode</a>
 - <a href="https://docs.empathy.co/blog/interface-x-integration-paths.html">Integrating Interface X Your Way</a>
 - <a href="https://docs.empathy.co/blog/fine-tune-mistral-for-dev-portal-overview.html">Fine-tuning Mistral for an Enhanced Content Search Experience (Parts I–IV)</a>
 - <a href="https://docs.empathy.co/blog/revolutionize-search-analytics-with-backroom.html">Revolutionize Your Commerce Search Analytics with Empathy's Backroom</a>
+
+---
+
+## Open-source Collabs
+
+- <a href="https://github.com/empathyco/x">Interface X Components</a>  — Empathy Platform
+- <a href="https://github.com/empathyco/empathy-self-managed-components">Self-Managed Components</a>  — Empathy Platform
 
 ---
 
@@ -245,12 +269,9 @@ For full project background and context, see [Selected Work Examples](work-examp
 
 - Extended and created new web pages and landing pages for <a href="https://empathy.ai">empathy.ai</a> using AI-assisted tools such as Lovable AI and Cursor. — Code snippets available upon request (version discontinued)
 
----
-
-## Open-source Collabs
-
-- <a href="https://github.com/empathyco/x">Interface X Components</a>
-- <a href="https://github.com/empathyco/empathy-self-managed-components">Self-Managed Components</a>
+| | |
+|---|---|
+| ![Empathy AI - About page](assets/empathy-ai-about.png) | ![Empathy AI - Labs Page](assets/empathy-ai-labs.png) |
 
 ---
 
@@ -264,6 +285,13 @@ Non-public materials available as censored excerpts upon request.
 - Partner & Stakeholder Training Materials
 - Documentation Processes & Workflows
 
+| | |
+|---|---|
+| ![Glossaries & Dictionaries](assets/glossary.svg) | ![Style Guides](assets/style-guide.svg) |
+| ![Onboarding and Training Guides for Technical Writers](assets/tw-onboarding-guide.svg) | ![Learning Paths & Certifications](assets/elearning-storyboard.png) |
+
+---
+<!--
 <div align="center">
 <table>
   <tr>
@@ -286,6 +314,6 @@ Non-public materials available as censored excerpts upon request.
   </tr>
 </table>
 </div>
-
+-->
 ---
 [← Home](index.md) · [Work Examples →](work-examples.md)
