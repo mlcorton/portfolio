@@ -26,60 +26,59 @@ For full project background and context, see [Selected Work Examples](work-examp
 - <a href="assets/dp-user-manual-excerpt.pdf" target="_blank">Working Area - PDF excerpt</a> (censored excerpts available upon request) — DocPath 
 - Publicaciones - Isban (Not publicly accessible - DITA snippet below) — Vector ITC & Banco Santander 
   
-  <details>
-    <summary><strong>Product Functional Guide - DITA snippet</strong></summary>
+<details>
+<summary><strong>Product Functional Guide - DITA snippet</strong></summary>
 
-    ```xml
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/technicalContent/dtd/topic.dtd">
+<topic id="[DOC-ID]" xml:lang="en-gb">
+  <title>Automatic Waiver (Batch Process)</title>
+  <titlealts>
+    <navtitle>BP-Automatic Waiver</navtitle>
+    <searchtitle>Automatic Waiver - [MODULE]</searchtitle>
+  </titlealts>
+  <shortdesc>[MODULE] executes a series of processes before the prenotifications of debits,
+  where the analysis of the debits to be waived is performed based on predefined conditions.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>[MODULE]</indexterm>
+        <indexterm>Automatic Waiver</indexterm>
+        <indexterm>Batch Process</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>When [MODULE] decides to reduce an item, it uses the waiver service defined in the
+    Attributes Model of the calling application and reflected in the CATALOGUE,
+    in the corresponding products and services.</p>
+    <p>The banking transaction is defined so that it is reported to [Reporting System].</p>
+    <p>Interest and items sent by SETTLEMENTS may not be waived, given that this is done
+    by the aforementioned application. However, in the special case of overdraft items,
+    [MODULE] verifies in advance whether automatic waiver should proceed.</p>
+    <p>Configuration of the predefined conditions that determine the automatic waiver
+    of items is established in a flat file in the following manner:</p>
+    <ul>
+      <li>Company/Product/Sub-type/Reference standard.</li>
+      <li>Group: annual, performed entries, returned entries, semi-annual.</li>
+      <li>Maximum number of debits to reduce or charge.</li>
+      <li>Fixed amount.</li>
+      <li>Amount (From/To).</li>
+      <li>Items related to the exception.</li>
+    </ul>
+  </body>
+  <related-links>
+    <linklist>
+      <title>Related functionalities:</title>
+      <link format="dita" href="[internal-path]" scope="local" type="topic"/>
+      <link format="dita" href="[internal-path]" scope="local" type="topic"/>
+    </linklist>
+  </related-links>
+</topic>
+```
 
-      <?xml version="1.0" encoding="utf-8"?>
-      <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/technicalContent/dtd/topic.dtd">
-      <topic id="[DOC-ID]" xml:lang="en-gb">
-        <title>Automatic Waiver (Batch Process)</title>
-        <titlealts>
-          <navtitle>BP-Automatic Waiver</navtitle>
-          <searchtitle>Automatic Waiver - [MODULE]</searchtitle>
-        </titlealts>
-      <shortdesc>[MODULE] executes a series of processes before the prenotifications of debits,
-      where the analysis of the debits to be waived is performed based on predefined conditions.</shortdesc>
-      <prolog>
-        <metadata>
-          <keywords>
-            <indexterm>[MODULE]</indexterm>
-            <indexterm>Automatic Waiver</indexterm>
-            <indexterm>Batch Process</indexterm>
-          </keywords>
-        </metadata>
-      </prolog>
-      <body>
-        <p>When [MODULE] decides to reduce an item, it uses the waiver service defined in the
-        Attributes Model of the calling application and reflected in the CATALOGUE,
-        in the corresponding products and services.</p>
-        <p>The banking transaction is defined so that it is reported to [Reporting System].</p>
-        <p>Interest and items sent by SETTLEMENTS may not be waived, given that this is done
-        by the aforementioned application. However, in the special case of overdraft items,
-        [MODULE] verifies in advance whether automatic waiver should proceed.</p>
-        <p>Configuration of the predefined conditions that determine the automatic waiver
-        of items is established in a flat file in the following manner:</p>
-        <ul>
-          <li>Company/Product/Sub-type/Reference standard.</li>
-          <li>Group: annual, performed entries, returned entries, semi-annual.</li>
-          <li>Maximum number of debits to reduce or charge.</li>
-          <li>Fixed amount.</li>
-          <li>Amount (From/To).</li>
-          <li>Items related to the exception.</li>
-        </ul>
-      </body>
-      <related-links>
-        <linklist>
-         <title>Related functionalities:</title>
-         <link format="dita" href="[internal-path]" scope="local" type="topic"/>
-         <link format="dita" href="[internal-path]" scope="local" type="topic"/>
-        </linklist>
-      </related-links>
-    </topic>
-    ```
-
-  </details>
+</details>
 
 ---
 
@@ -96,115 +95,115 @@ For full project background and context, see [Selected Work Examples](work-examp
 - <a href="https://docs.empathy.co/develop-empathy-platform/build-search-ui/web-x-components-injection-guide.html">Inject Interface X Components into your website's DOM</a> — Empathy Platform
 - <a href="https://docs.empathy.co/develop-empathy-platform/index-product-feed/index-feed-with-api/">Index a Feed using the Index API</a> — Empathy Platform
 - <a href="https://docs.empathy.co/develop-empathy-platform/capture-interaction-signals/tagging-api-guide.html">Integrate Tagging using the Tagging API</a> — Empathy Platform
-- Publicaciones - Isban (Not publicly accessible - DITA snippet below) — Vector ITC & Banco Santander 
-  
-  <details>
-    <summary><strong>Programming Guide - DITA snippet</strong></summary>
+- Publicaciones - Isban (Not publicly accessible - DITA snippet below) — Vector ITC & Banco Santander
 
-    ```xml
-    <?xml version="1.0" encoding="utf-8"?>
-    <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA EH Reference//EN" "reference.dtd">
-    <reference id="[DOC-ID]" xml:lang="en-gb">
-      <title>[PROGRAM-ID]</title>
-      <titlealts>
-        <navtitle>[PROGRAM-ID]</navtitle>
-        <searchtitle>[PROGRAM-ID] - [MODULE]</searchtitle>
-      </titlealts>
-      <shortdesc>MIXED ROUTINE FOR THE RECEPTION OF FEES</shortdesc>
-      <prolog>
-        <metadata>
-          <keywords>
-            <indexterm>[MODULE]</indexterm>
-            <indexterm>[PROGRAM-ID]</indexterm>
-          </keywords>
-        </metadata>
-      </prolog>
-      <refbody>
-        <section>
-          <table>
-            <title>Versioning data</title>
-            <tgroup cols="5">
-              <thead>
-                <row>
-                  <entry align="center">Application</entry>
-                  <entry align="center">Subapplication</entry>
-                  <entry align="center">Version/Release</entry>
-                  <entry align="center">System</entry>
-                  <entry align="center">Area</entry>
-               </row>
-              </thead>
-              <tbody>
-               <row>
-                  <entry align="left">[APP-ID]</entry>
-                  <entry align="left">[SUBAPP-ID]</entry>
-                  <entry align="left">0020/0000</entry>
-                  <entry align="left">[SYS-ID]</entry>
-                  <entry align="left">[AREA-ID]</entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </table>
-        </section>
-        <section>
-          <title>Call flow</title>
-          <dl>
-           <dlentry>
-              <dt>Programs called by</dt>
-              <dd>
-               <ul>
-                 <li>[PROGRAM-ID] - MIXED ROUTINE FOR BD UPDATE</li>
-                 <li>[PROGRAM-ID] - MIXED ROUTINE FOR FEE PRENOTIFICATION</li>
-                 <li>[PROGRAM-ID] - SERVICES DISTRIBUTOR</li>
-                 <li>[PROGRAM-ID] - BRANCH TABLE ENQUIRY ROUTINE</li>
-                 <li>[PROGRAM-ID] - CURRENCY TABLE ENQUIRY ROUTINE</li>
-                </ul>
-             </dd>
-            </dlentry>
-            <dlentry>
-             <dt>Tables accessed</dt>
-             <dd>
-               <ul>
-                  <li>[TABLE-ID]
-                    <ul><li>Type of access: SELECT INSERT</li></ul>
-                 </li>
-                 <li>[TABLE-ID]
-                    <ul><li>Type of access: INSERT</li></ul>
-                 </li>
-                 <li>[TABLE-ID]
-                    <ul><li>Type of access: SELECT</li></ul>
-                 </li>
-                </ul>
-              </dd>
-            </dlentry>
-          </dl>
-        </section>
-       <section>
-         <title>Error codes</title>
-         <dl>
-            <dlentry>
-              <dt>Error codes</dt>
-             <dd>
-                <ul>
-                  <li>XX1111 - TECHNICAL ERROR. PLEASE CONTACT YOUR [SUPPORT CONTACT]</li>
-                  <li>XX3333 - TECHNICAL ERROR. PLEASE CONTACT YOUR [SUPPORT CONTACT]</li>
-                  <li>XX9520 - YOUR REQUEST CANNOT BE ATTENDED AT THIS MOMENT. PLEASE TRY AGAIN LATER</li>
-                </ul>
-             </dd>
-            </dlentry>
-          </dl>
-        </section>
-     </refbody>
-      <related-links>
-       <linklist>
-         <title>Related programs:</title>
-         <link format="dita" href="[internal-path]" scope="local" type="reference"/>
-         <link format="dita" href="[internal-path]" scope="local" type="reference"/>
-        </linklist>
-      </related-links>
-    </reference>
-   ```
+<details>
+<summary><strong>Programming Guide - DITA snippet</strong></summary>
 
-  </details>
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA EH Reference//EN" "reference.dtd">
+<reference id="[DOC-ID]" xml:lang="en-gb">
+  <title>[PROGRAM-ID]</title>
+  <titlealts>
+    <navtitle>[PROGRAM-ID]</navtitle>
+    <searchtitle>[PROGRAM-ID] - [MODULE]</searchtitle>
+  </titlealts>
+  <shortdesc>MIXED ROUTINE FOR THE RECEPTION OF FEES</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>[MODULE]</indexterm>
+        <indexterm>[PROGRAM-ID]</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <table>
+        <title>Versioning data</title>
+        <tgroup cols="5">
+          <thead>
+            <row>
+              <entry align="center">Application</entry>
+              <entry align="center">Subapplication</entry>
+              <entry align="center">Version/Release</entry>
+              <entry align="center">System</entry>
+              <entry align="center">Area</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry align="left">[APP-ID]</entry>
+              <entry align="left">[SUBAPP-ID]</entry>
+              <entry align="left">0020/0000</entry>
+              <entry align="left">[SYS-ID]</entry>
+              <entry align="left">[AREA-ID]</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title>Call flow</title>
+      <dl>
+        <dlentry>
+          <dt>Programs called by</dt>
+          <dd>
+            <ul>
+              <li>[PROGRAM-ID] - MIXED ROUTINE FOR BD UPDATE</li>
+              <li>[PROGRAM-ID] - MIXED ROUTINE FOR FEE PRENOTIFICATION</li>
+              <li>[PROGRAM-ID] - SERVICES DISTRIBUTOR</li>
+              <li>[PROGRAM-ID] - BRANCH TABLE ENQUIRY ROUTINE</li>
+              <li>[PROGRAM-ID] - CURRENCY TABLE ENQUIRY ROUTINE</li>
+            </ul>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Tables accessed</dt>
+          <dd>
+            <ul>
+              <li>[TABLE-ID]
+                <ul><li>Type of access: SELECT INSERT</li></ul>
+              </li>
+              <li>[TABLE-ID]
+                <ul><li>Type of access: INSERT</li></ul>
+              </li>
+              <li>[TABLE-ID]
+                <ul><li>Type of access: SELECT</li></ul>
+              </li>
+            </ul>
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section>
+      <title>Error codes</title>
+      <dl>
+        <dlentry>
+          <dt>Error codes</dt>
+          <dd>
+            <ul>
+              <li>XX1111 - TECHNICAL ERROR. PLEASE CONTACT YOUR [SUPPORT CONTACT]</li>
+              <li>XX3333 - TECHNICAL ERROR. PLEASE CONTACT YOUR [SUPPORT CONTACT]</li>
+              <li>XX9520 - YOUR REQUEST CANNOT BE ATTENDED AT THIS MOMENT. PLEASE TRY AGAIN LATER</li>
+            </ul>
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+  </refbody>
+  <related-links>
+    <linklist>
+      <title>Related programs:</title>
+      <link format="dita" href="[internal-path]" scope="local" type="reference"/>
+      <link format="dita" href="[internal-path]" scope="local" type="reference"/>
+    </linklist>
+  </related-links>
+</reference>
+```
+
+</details>
 ---
 
 ## Configuration Guides
