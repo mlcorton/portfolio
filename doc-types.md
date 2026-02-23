@@ -29,6 +29,8 @@ For full project background and context, see [Selected Work Examples](work-examp
 <details>
 <summary><strong>Product Functional Guide - DITA snippet</strong></summary>
 
+ <div markdown="1">
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/technicalContent/dtd/topic.dtd">
@@ -78,6 +80,7 @@ For full project background and context, see [Selected Work Examples](work-examp
 </topic>
 ```
 
+</div>
 </details>
 
 ---
@@ -99,6 +102,8 @@ For full project background and context, see [Selected Work Examples](work-examp
 
 <details>
 <summary><strong>Programming Guide - DITA snippet</strong></summary>
+
+ <div markdown="1">
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -203,6 +208,7 @@ For full project background and context, see [Selected Work Examples](work-examp
 </reference>
 ```
 
+</div>
 </details>
 ---
 
