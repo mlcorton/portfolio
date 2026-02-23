@@ -24,62 +24,62 @@ For full project background and context, see [Selected Work Examples](work-examp
 - <a href="https://docs.empathy.co/understand-empathy-platform/about-empathy-platform/approach-search-relevance/">Search Relevance</a> — Empathy Platform
 - <a href="https://docs.empathy.co/play-with-empathy-platform/discover-playboard/">Discover the Playboard</a> — Empathy Platform
 - <a href="assets/dp-user-manual-excerpt.pdf" target="_blank">Working Area - PDF excerpt</a> (censored excerpts available upon request) — DocPath 
-
 - Publicaciones - Isban (Not publicly accessible - DITA snippet below) — Vector ITC & Banco Santander 
+  
   <details>
-  <summary>Product Functional Guide - DITA snippet</summary>
+    <summary><strong>Product Functional Guide - DITA snippet</strong></summary>
 
-  *DITA type: `<topic>` — Functional overview doc*
+    ```xml
+      *DITA type: `<topic>` — Functional overview doc*
+      <?xml version="1.0" encoding="utf-8"?>
+      <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/technicalContent/dtd/topic.dtd">
+      <topic id="[DOC-ID]" xml:lang="en-gb">
+        <title>Automatic Waiver (Batch Process)</title>
+        <titlealts>
+          <navtitle>BP-Automatic Waiver</navtitle>
+          <searchtitle>Automatic Waiver - [MODULE]</searchtitle>
+        </titlealts>
+      <shortdesc>[MODULE] executes a series of processes before the prenotifications of debits,
+      where the analysis of the debits to be waived is performed based on predefined conditions.</shortdesc>
+      <prolog>
+        <metadata>
+          <keywords>
+            <indexterm>[MODULE]</indexterm>
+            <indexterm>Automatic Waiver</indexterm>
+            <indexterm>Batch Process</indexterm>
+          </keywords>
+        </metadata>
+      </prolog>
+      <body>
+        <p>When [MODULE] decides to reduce an item, it uses the waiver service defined in the
+        Attributes Model of the calling application and reflected in the CATALOGUE,
+        in the corresponding products and services.</p>
+        <p>The banking transaction is defined so that it is reported to [Reporting System].</p>
+        <p>Interest and items sent by SETTLEMENTS may not be waived, given that this is done
+        by the aforementioned application. However, in the special case of overdraft items,
+        [MODULE] verifies in advance whether automatic waiver should proceed.</p>
+        <p>Configuration of the predefined conditions that determine the automatic waiver
+        of items is established in a flat file in the following manner:</p>
+        <ul>
+          <li>Company/Product/Sub-type/Reference standard.</li>
+          <li>Group: annual, performed entries, returned entries, semi-annual.</li>
+          <li>Maximum number of debits to reduce or charge.</li>
+          <li>Fixed amount.</li>
+          <li>Amount (From/To).</li>
+          <li>Items related to the exception.</li>
+        </ul>
+      </body>
+      <related-links>
+        <linklist>
+         <title>Related functionalities:</title>
+         <link format="dita" href="[internal-path]" scope="local" type="topic"/>
+         <link format="dita" href="[internal-path]" scope="local" type="topic"/>
+        </linklist>
+      </related-links>
+    </topic>
+    ```
 
-  ```xml
-  <?xml version="1.0" encoding="utf-8"?>
-  <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/technicalContent/dtd/topic.dtd">
-  <topic id="[DOC-ID]" xml:lang="en-gb">
-    <title>Automatic Waiver (Batch Process)</title>
-    <titlealts>
-      <navtitle>BP-Automatic Waiver</navtitle>
-      <searchtitle>Automatic Waiver - [MODULE]</searchtitle>
-    </titlealts>
-    <shortdesc>[MODULE] executes a series of processes before the prenotifications of debits,
-    where the analysis of the debits to be waived is performed based on predefined conditions.</shortdesc>
-    <prolog>
-      <metadata>
-        <keywords>
-          <indexterm>[MODULE]</indexterm>
-          <indexterm>Automatic Waiver</indexterm>
-          <indexterm>Batch Process</indexterm>
-        </keywords>
-      </metadata>
-    </prolog>
-    <body>
-      <p>When [MODULE] decides to reduce an item, it uses the waiver service defined in the
-      Attributes Model of the calling application and reflected in the CATALOGUE,
-      in the corresponding products and services.</p>
-      <p>The banking transaction is defined so that it is reported to [Reporting System].</p>
-      <p>Interest and items sent by SETTLEMENTS may not be waived, given that this is done
-      by the aforementioned application. However, in the special case of overdraft items,
-      [MODULE] verifies in advance whether automatic waiver should proceed.</p>
-      <p>Configuration of the predefined conditions that determine the automatic waiver
-      of items is established in a flat file in the following manner:</p>
-      <ul>
-        <li>Company/Product/Sub-type/Reference standard.</li>
-        <li>Group: annual, performed entries, returned entries, semi-annual.</li>
-        <li>Maximum number of debits to reduce or charge.</li>
-        <li>Fixed amount.</li>
-        <li>Amount (From/To).</li>
-        <li>Items related to the exception.</li>
-      </ul>
-    </body>
-    <related-links>
-      <linklist>
-        <title>Related functionalities:</title>
-        <link format="dita" href="[internal-path]" scope="local" type="topic"/>
-        <link format="dita" href="[internal-path]" scope="local" type="topic"/>
-      </linklist>
-    </related-links>
-  </topic>
-  ```
-</details>
+  </details>
 
 ---
 
@@ -97,112 +97,114 @@ For full project background and context, see [Selected Work Examples](work-examp
 - <a href="https://docs.empathy.co/develop-empathy-platform/index-product-feed/index-feed-with-api/">Index a Feed using the Index API</a> — Empathy Platform
 - <a href="https://docs.empathy.co/develop-empathy-platform/capture-interaction-signals/tagging-api-guide.html">Integrate Tagging using the Tagging API</a> — Empathy Platform
 - Publicaciones - Isban (Not publicly accessible - DITA snippet below) — Vector ITC & Banco Santander 
+  
   <details>
-  <summary>Programming Guide - DITA snippet</summary>
-  *DITA type: `<reference>` — Program reference doc*
+    <summary><strong>Programming Guide - DITA snippet</strong></summary>
 
-  ```xml
-  <?xml version="1.0" encoding="utf-8"?>
-  <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA EH Reference//EN" "reference.dtd">
-  <reference id="[DOC-ID]" xml:lang="en-gb">
-    <title>[PROGRAM-ID]</title>
-    <titlealts>
-      <navtitle>[PROGRAM-ID]</navtitle>
-      <searchtitle>[PROGRAM-ID] - [MODULE]</searchtitle>
-    </titlealts>
-    <shortdesc>MIXED ROUTINE FOR THE RECEPTION OF FEES</shortdesc>
-    <prolog>
-      <metadata>
-        <keywords>
-          <indexterm>[MODULE]</indexterm>
-          <indexterm>[PROGRAM-ID]</indexterm>
-        </keywords>
-      </metadata>
-    </prolog>
-    <refbody>
-      <section>
-        <table>
-          <title>Versioning data</title>
-          <tgroup cols="5">
-            <thead>
-              <row>
-                <entry align="center">Application</entry>
-                <entry align="center">Subapplication</entry>
-                <entry align="center">Version/Release</entry>
-                <entry align="center">System</entry>
-                <entry align="center">Area</entry>
-              </row>
-            </thead>
-            <tbody>
-              <row>
-                <entry align="left">[APP-ID]</entry>
-                <entry align="left">[SUBAPP-ID]</entry>
-                <entry align="left">0020/0000</entry>
-                <entry align="left">[SYS-ID]</entry>
-                <entry align="left">[AREA-ID]</entry>
-              </row>
-            </tbody>
-          </tgroup>
-        </table>
-      </section>
-      <section>
-        <title>Call flow</title>
-        <dl>
-          <dlentry>
-            <dt>Programs called by</dt>
-            <dd>
-              <ul>
-                <li>[PROGRAM-ID] - MIXED ROUTINE FOR BD UPDATE</li>
-                <li>[PROGRAM-ID] - MIXED ROUTINE FOR FEE PRENOTIFICATION</li>
-                <li>[PROGRAM-ID] - SERVICES DISTRIBUTOR</li>
-                <li>[PROGRAM-ID] - BRANCH TABLE ENQUIRY ROUTINE</li>
-                <li>[PROGRAM-ID] - CURRENCY TABLE ENQUIRY ROUTINE</li>
-              </ul>
-            </dd>
-          </dlentry>
-          <dlentry>
-            <dt>Tables accessed</dt>
-            <dd>
-              <ul>
-                <li>[TABLE-ID]
-                  <ul><li>Type of access: SELECT INSERT</li></ul>
-                </li>
-                <li>[TABLE-ID]
-                  <ul><li>Type of access: INSERT</li></ul>
-                </li>
-                <li>[TABLE-ID]
-                  <ul><li>Type of access: SELECT</li></ul>
-                </li>
-              </ul>
-            </dd>
-          </dlentry>
-        </dl>
-      </section>
-      <section>
-        <title>Error codes</title>
-        <dl>
-          <dlentry>
-            <dt>Error codes</dt>
-            <dd>
-              <ul>
-                <li>XX1111 - TECHNICAL ERROR. PLEASE CONTACT YOUR [SUPPORT CONTACT]</li>
-                <li>XX3333 - TECHNICAL ERROR. PLEASE CONTACT YOUR [SUPPORT CONTACT]</li>
-                <li>XX9520 - YOUR REQUEST CANNOT BE ATTENDED AT THIS MOMENT. PLEASE TRY AGAIN LATER</li>
-              </ul>
-            </dd>
-          </dlentry>
-        </dl>
-      </section>
-    </refbody>
-    <related-links>
-      <linklist>
-        <title>Related programs:</title>
-        <link format="dita" href="[internal-path]" scope="local" type="reference"/>
-        <link format="dita" href="[internal-path]" scope="local" type="reference"/>
-      </linklist>
-    </related-links>
-  </reference>
-  ```
+    ```xml
+    *DITA type: `<reference>` — Program reference doc*
+    <?xml version="1.0" encoding="utf-8"?>
+    <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA EH Reference//EN" "reference.dtd">
+    <reference id="[DOC-ID]" xml:lang="en-gb">
+      <title>[PROGRAM-ID]</title>
+      <titlealts>
+        <navtitle>[PROGRAM-ID]</navtitle>
+        <searchtitle>[PROGRAM-ID] - [MODULE]</searchtitle>
+      </titlealts>
+      <shortdesc>MIXED ROUTINE FOR THE RECEPTION OF FEES</shortdesc>
+      <prolog>
+        <metadata>
+          <keywords>
+            <indexterm>[MODULE]</indexterm>
+            <indexterm>[PROGRAM-ID]</indexterm>
+          </keywords>
+        </metadata>
+      </prolog>
+      <refbody>
+        <section>
+          <table>
+            <title>Versioning data</title>
+            <tgroup cols="5">
+              <thead>
+                <row>
+                  <entry align="center">Application</entry>
+                  <entry align="center">Subapplication</entry>
+                  <entry align="center">Version/Release</entry>
+                  <entry align="center">System</entry>
+                  <entry align="center">Area</entry>
+               </row>
+              </thead>
+              <tbody>
+               <row>
+                  <entry align="left">[APP-ID]</entry>
+                  <entry align="left">[SUBAPP-ID]</entry>
+                  <entry align="left">0020/0000</entry>
+                  <entry align="left">[SYS-ID]</entry>
+                  <entry align="left">[AREA-ID]</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </section>
+        <section>
+          <title>Call flow</title>
+          <dl>
+           <dlentry>
+              <dt>Programs called by</dt>
+              <dd>
+               <ul>
+                 <li>[PROGRAM-ID] - MIXED ROUTINE FOR BD UPDATE</li>
+                 <li>[PROGRAM-ID] - MIXED ROUTINE FOR FEE PRENOTIFICATION</li>
+                 <li>[PROGRAM-ID] - SERVICES DISTRIBUTOR</li>
+                 <li>[PROGRAM-ID] - BRANCH TABLE ENQUIRY ROUTINE</li>
+                 <li>[PROGRAM-ID] - CURRENCY TABLE ENQUIRY ROUTINE</li>
+                </ul>
+             </dd>
+            </dlentry>
+            <dlentry>
+             <dt>Tables accessed</dt>
+             <dd>
+               <ul>
+                  <li>[TABLE-ID]
+                    <ul><li>Type of access: SELECT INSERT</li></ul>
+                 </li>
+                 <li>[TABLE-ID]
+                    <ul><li>Type of access: INSERT</li></ul>
+                 </li>
+                 <li>[TABLE-ID]
+                    <ul><li>Type of access: SELECT</li></ul>
+                 </li>
+                </ul>
+              </dd>
+            </dlentry>
+          </dl>
+        </section>
+       <section>
+         <title>Error codes</title>
+         <dl>
+            <dlentry>
+              <dt>Error codes</dt>
+             <dd>
+                <ul>
+                  <li>XX1111 - TECHNICAL ERROR. PLEASE CONTACT YOUR [SUPPORT CONTACT]</li>
+                  <li>XX3333 - TECHNICAL ERROR. PLEASE CONTACT YOUR [SUPPORT CONTACT]</li>
+                  <li>XX9520 - YOUR REQUEST CANNOT BE ATTENDED AT THIS MOMENT. PLEASE TRY AGAIN LATER</li>
+                </ul>
+             </dd>
+            </dlentry>
+          </dl>
+        </section>
+     </refbody>
+      <related-links>
+       <linklist>
+         <title>Related programs:</title>
+         <link format="dita" href="[internal-path]" scope="local" type="reference"/>
+         <link format="dita" href="[internal-path]" scope="local" type="reference"/>
+        </linklist>
+      </related-links>
+    </reference>
+   ```
+
   </details>
 ---
 
@@ -238,13 +240,9 @@ For full project background and context, see [Selected Work Examples](work-examp
 - <a href="https://docs.empathy.co/doc-updates.html">Doc Releases</a> — Empathy Platform
 - <a href="https://apps.apple.com/us/app/b-fy-app/id1334660999">Doc Releases</a> — Biocryptology App (Discontinued)
 
-<table>
-  <tr>
-    <td><img src="assets/content-updates.png" alt="Content Updates Timeline" width="250"></td>
-    <td><img src="assets/biocryptology-release-notes.png" alt="Biocryptology App - Release Notes" width="175"></td>
-  </tr>
-</table>
-
+| | |
+|---|---|
+| ![Content Updates Timeline](assets/content-updates.png) | ![Biocryptology App - Release Notes](assets/biocryptology-release-notes.png) |
 
 ---
 
@@ -290,30 +288,6 @@ Non-public materials available as censored excerpts upon request.
 | ![Glossaries & Dictionaries](assets/glossary.svg) | ![Style Guides](assets/style-guide.svg) |
 | ![Onboarding and Training Guides for Technical Writers](assets/tw-onboarding-guide.svg) | ![Learning Paths & Certifications](assets/elearning-storyboard.png) |
 
----
-<!--
-<div align="center">
-<table>
-  <tr>
-    <td align="center">
-      <img src="assets/glossary.svg" width="200"/><br/>
-      <sub>Glossaries & Dictionaries</sub>
-    </td>
-    <td align="center">
-      <img src="assets/style-guide.svg" width="200"/><br/>
-      <sub>Style Guides</sub>
-    </td>
-    <td align="center">
-      <img src="assets/tw-onboarding-guide.svg" width="200"/><br/>
-      <sub>Onboarding and Training Guides for Technical Writers</sub>
-    </td>
-    <td align="center">
-      <img src="assets/training-guide.svg" width="200"/><br/>
-      <sub>Learning Paths & Certifications</sub>
-    </td>
-  </tr>
-</table>
-</div>
--->
----
+
+
 [← Home](index.md) · [Work Examples →](work-examples.md)
