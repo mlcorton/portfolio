@@ -30,7 +30,7 @@ For full project background and context, see [Selected Work Examples](work-examp
     <summary><strong>Product Functional Guide - DITA snippet</strong></summary>
 
     ```xml
-      *DITA type: `<topic>` — Functional overview doc*
+
       <?xml version="1.0" encoding="utf-8"?>
       <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/technicalContent/dtd/topic.dtd">
       <topic id="[DOC-ID]" xml:lang="en-gb">
@@ -102,7 +102,6 @@ For full project background and context, see [Selected Work Examples](work-examp
     <summary><strong>Programming Guide - DITA snippet</strong></summary>
 
     ```xml
-    *DITA type: `<reference>` — Program reference doc*
     <?xml version="1.0" encoding="utf-8"?>
     <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA EH Reference//EN" "reference.dtd">
     <reference id="[DOC-ID]" xml:lang="en-gb">
