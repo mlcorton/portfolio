@@ -224,8 +224,8 @@ For full project background and context, see [Selected Work Examples](work-examp
 
 - Sample search endpoint doc based on a search API legacy version:
   - <a href="docs/example-search-api-doc.yaml" download> Download YAML file</a>.
-  - <a href="https://editor.swagger.io/?url=https://mlcorton.github.io/portfolio/docs/example_search_api_doc.yaml" target="_blank">See interactive doc version - Swagger</a>
-  - <a href="https://redocly.github.io/redoc/?url=https://mlcorton.github.io/portfolio/docs/example_search_api_doc.yaml" target="_blank">See interactive doc version - Redocly</a>
+  - <a href="https://editor.swagger.io/?url=https://mlcorton.github.io/portfolio/docs/example-search-api-doc.yaml" target="_blank">See interactive doc version - Swagger</a>
+  - <a href="https://redocly.github.io/redoc/?url=https://mlcorton.github.io/portfolio/docs/example-search-api-doc.yaml" target="_blank">See interactive doc version - Redocly</a>
 
 - <a href="https://docs.empathy.co/develop-empathy-platform/api-reference/">API Reference</a> — Empathy Platform
 - <a href="https://docs.empathy.co/develop-empathy-platform/ui-reference/">UI Reference</a> — Empathy Platform (Vue.js components)
