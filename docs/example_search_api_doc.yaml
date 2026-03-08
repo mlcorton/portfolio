@@ -1,0 +1,179 @@
+openapi: '3.0.4'
+info:
+  title: Search API
+  version: '1.0.0'
+  description: |
+    The Empathy Platform Search API allows you to perform search queries against a product catalog.
+
+    ### Check out its features:
+
+    * Search queries
+    * Retrieve search trends
+    * Retrieve the most clicked products
+    * Retrieve products filtered by category
+  
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0
+
+servers:
+    - url: https://example.com/search-api/query/v1
+      description: Main production server
+    - url: https://staging-example.com/search-api/query/v1
+      description: Internal staging server for testing
+
+tags:
+  - name: search
+    description: Operations related to searching the product catalog
+
+paths:
+  /search:
+    get: 
+      tags: 
+        - search
+      summary: Search a product catalog
+      description: Returns a list of products in the catalog that match the query
+      parameters:
+        - name: query
+          in: query
+          description: The search term entered by the user in the search bar and that is sent to the search engine.
+          required: true
+          schema:  
+            type: string
+          example: trousers
+        - name: language
+          in: query
+          description: The language of the query. It must be formulated following ISO 639-1 codes, for example, "es" for Spanish or "en" for English.
+          required: true
+          schema:
+            type: string
+          example: en
+        - name: scope
+          in: query
+          description: The device used to launch the search query. It can be a desktop or a mobile device.
+          required: true
+          schema: 
+            type: string
+            enum: [desktop, mobile]
+          example: desktop
+        - name: user
+          in: query
+          description: Unique identifier (in UUID format) of the user who perform the query.
+          required: false
+          schema:
+            type: string
+            format: uuid
+          example: e877-68f2-8f8d-422e-97da-58e449fd5eac
+          deprecated: true
+        - name: session
+          in: query
+          description: Unique identifier (in UUID format) of the session.
+          required: false
+          schema:
+            type: string
+            format: uuid
+          example: 164b2b41-e220-4fad-957c-e8d48ed475ea
+        - name: user_type
+          in: query
+          required: false
+          description: Type of user that perform the query based on their history of interaction. For example, a recurrent or a new user.
+          schema:
+            type: string
+          example: recurrent
+        - name: rows
+          in: query
+          required: false
+          description: Number of results to display per page. For example, 20.
+          schema:
+            type: integer
+            default: 10
+            minimum: 1
+            maximum: 30
+          example: 20
+        - name: start
+          in: query
+          required: false
+          description: Page offset. Position on the results page where the first result should be displayed. Used for pagination purposes.
+          schema:
+            type: integer
+            default: 1
+          example: 5
+        - name: origin
+          in: query
+          required: false
+          description: Source of the query. It determines the type of query performed the user based on the UI component that triggered the query. For example, whether the query was typed in the search box (`default`), selected from a search suggestion (`empathize`), or triggered from an initial query (`next_query`). Usually used for search performance and analytical purposes. 
+          schema:
+            type: string
+            enum: [default, empathize, next_query]
+          example: default
+        - name: f.op
+          in: query
+          required: false
+          description: Filter operator used to combine multiple query filters, such as AND or OR.
+          schema:
+            type: string
+            enum: [AND, OR]
+          example: AND
+      responses:
+        "200": 
+          description: Search results returned successfully.
+          content:
+            application/json: 
+              schema:
+                $ref: '#/components/schemas/productsList'
+              example: 
+                - display_name: Barrel pants with elastic waist
+                  full_price: 49.90
+                  ref_id: "1478/020/622"
+                  img_path: "https://example.com/images/01236547.jpg"
+                - display_name: Slim fit chino trousers
+                  full_price: 35.50
+                  ref_id: "2356/011/408"
+                  img_path: "https://example.com/images/02356478.jpg"
+        "400":
+          description: Bad request. Invalid parameters in the request.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        "500":
+          description: Internal server error.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+components: 
+  schemas:
+    ErrorResponse:
+      type: object
+      properties:
+        code:
+          type: integer
+        message:
+          type: string
+
+    productsList:
+      type: array
+      minItems: 1
+      description: List of the returned product results.
+      items: 
+        $ref: "#/components/schemas/item"   
+    item:
+      type: object
+      description: Description of a returned product result.
+      properties:
+        display_name:
+          type: string
+          example: Barrel pants with elastic waist.
+        full_price:
+          type: number
+          description: Price of the product in USD.
+          example: 49.90
+        ref_id:
+          type: string
+          description: Unique identifier of the product in the catalog.
+          example: 1478/020/622
+        img_path:
+          type: string
+          description: URL path where the image of the product is stored.
+          example: "https://example.com/images/01236547.jpg" 
