@@ -23,7 +23,7 @@ For full project background and context, see [Selected Work Examples](work-examp
 - <a href="https://docs.empathy.co/understand-empathy-platform/about-empathy-platform/understand-semantics-in-ai-search/why-semantics-in-ai-search.html">Why Semantic Search</a> — Empathy Platform
 - <a href="https://docs.empathy.co/understand-empathy-platform/about-empathy-platform/approach-search-relevance/">Search Relevance</a> — Empathy Platform
 - <a href="https://docs.empathy.co/play-with-empathy-platform/discover-playboard/">Discover the Playboard</a> — Empathy Platform
-- <a href="assets/dp-user-manual-excerpt.pdf" target="_blank">Working Area - PDF excerpt</a> (censored excerpts available upon request) — DocPath 
+- <a href="docs/dp-user-manual-excerpt.pdf" target="_blank">Working Area - PDF excerpt</a> (censored excerpts available upon request) — DocPath 
 - Publicaciones - Isban (Not publicly accessible - DITA snippet below) — Vector ITC & Banco Santander 
   
 <details>
@@ -216,14 +216,14 @@ For full project background and context, see [Selected Work Examples](work-examp
 
 - <a href="https://docs.empathy.co/play-with-empathy-platform/configure-empathy-platform/configure-search-service/">Configure the Search Service</a> — Empathy Platform
 - <a href="https://docs.empathy.co/play-with-empathy-platform/configure-empathy-platform/configure-search-service/search-relevancy-tuning.html">Relevancy Tuning Features</a> — Empathy Platform
-- <a href="assets/dp-config-guide-excerpt.pdf" target="_blank">Configure the INI File - PDF excerpt</a> (censored excerpts available upon request) — DocPath 
+- <a href="docs/dp-config-guide-excerpt.pdf" target="_blank">Configure the INI File - PDF excerpt</a> (censored excerpts available upon request) — DocPath 
 
 ---
 
 ## API & UI Reference
 
 - Sample search endpoint doc based on a search API legacy version:
-  - <a href="/docs/example-search-api-doc.yaml" download> Download YAML file</a>.
+  - <a href="docs/example-search-api-doc.yaml" download> Download YAML file</a>.
   - <a href="https://editor.swagger.io/?url=https://mlcorton.github.io/portfolio/docs/example_search_api_doc.yaml" target="_blank">See interactive doc version - Swagger</a>
   - <a href="https://redocly.github.io/redoc/?url=https://mlcorton.github.io/portfolio/docs/example_search_api_doc.yaml" target="_blank">See interactive doc version - Redocly</a>
 
